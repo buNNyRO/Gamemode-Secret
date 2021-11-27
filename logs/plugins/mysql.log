@@ -1,0 +1,408 @@
+[12:49:52] [WARNING] mysql_connect: no password specified (new.pwn:63 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[12:57:07] [WARNING] mysql_connect: no password specified (new.pwn:63 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[13:01:28] [WARNING] mysql_connect: no password specified (new.pwn:63 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[13:04:03] [WARNING] mysql_connect: no password specified (new.pwn:63 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[13:25:51] [WARNING] mysql_connect: no password specified (new.pwn:63 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[14:43:30] [WARNING] mysql_connect: no password specified (new.pwn:65 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[14:43:39] [ERROR] cache_get_value_name: field 'mail' not found (new.pwn:379 -> new.pwn:371 -> D:\Compiler\include\a_mysql_yinline.inc:665)
+[14:43:39] [ERROR] cache_get_value_name_int: field 'gender' not found (new.pwn:380 -> new.pwn:371 -> D:\Compiler\include\a_mysql_yinline.inc:665)
+[14:44:57] [WARNING] mysql_connect: no password specified (new.pwn:65 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[14:47:04] [WARNING] mysql_connect: no password specified (new.pwn:65 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[14:47:46] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', '', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:298)
+[14:50:56] [WARNING] mysql_connect: no password specified (new.pwn:65 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[14:51:59] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:299)
+[14:52:00] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:299)
+[14:53:18] [WARNING] mysql_connect: no password specified (new.pwn:65 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[14:54:44] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:54:45] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:54:46] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:54:46] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:54:47] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:54:47] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:54:47] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:56:06] [WARNING] mysql_connect: no password specified (new.pwn:65 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[14:56:27] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:56:28] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:56:28] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:56:28] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:56:28] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:302)
+[14:59:33] [WARNING] mysql_connect: no password specified (new.pwn:65 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[14:59:51] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:304)
+[14:59:52] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:304)
+[14:59:52] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:304)
+[14:59:52] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:304)
+[14:59:52] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:304)
+[15:08:32] [WARNING] mysql_connect: no password specified (new.pwn:65 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[15:18:15] [WARNING] mysql_connect: no password specified (new.pwn:65 -> D:\Compiler\include\sscanf2.inc:174 -> D:\Compiler\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[15:18:33] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:369)
+[15:18:34] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:369)
+[15:18:36] [ERROR] error #1054 while executing query "INSERT INTO `players` (`name`, `password`, `mail`, `gender`, ip) VALUES ('test', 'F34A8786F0E51640D6D1200387CA98823FCB2EA7FF5B3C01C62E0D74BC377E2B', 'test@test.com', '', '127.0.0.1')": Unknown column 'mail' in 'field list' (new.pwn:369)
+[16:05:05] [WARNING] mysql_connect: no password specified
+[17:43:24] [WARNING] mysql_connect: no password specified
+[17:43:48] [ERROR] error #1054 while executing query "INSERT INTO `users` (`name`, `password`, `mail`, `gender`, ip) VALUES ('buNNy', '', 'erikerik', '', '127.0.0.1')": Unknown column 'mail' in 'field list'
+[17:45:24] [WARNING] mysql_connect: no password specified
+[17:45:44] [ERROR] error #1054 while executing query "INSERT INTO `users` (`name`, `password`, `mail`, `gender`, ip) VALUES ('buNNy', '', 'erikerik', '', '127.0.0.1')": Unknown column 'mail' in 'field list'
+[17:46:43] [ERROR] error #1054 while executing query "INSERT INTO `users` (`name`, `password`, `mail`, `gender`, ip) VALUES ('buNNy', 'F1B096F9A0EC1C064484A2258CBE15433B865A5FD1168AD237F1BEB246E40298', 'erikerik', '', '127.0.0.1')": Unknown column 'mail' in 'field list'
+[19:31:17] [WARNING] mysql_connect: no password specified
+[19:31:44] [ERROR] error #1054 while executing query "INSERT INTO `users` (`name`, `password`, `mail`, `gender`, ip) VALUES ('buNNy', '', 'dasfdfsdfsdf', '', '127.0.0.1')": Unknown column 'mail' in 'field list'
+[19:32:01] [ERROR] error #1054 while executing query "INSERT INTO `users` (`name`, `password`, `mail`, `gender`, ip) VALUES ('buNNy', '9A2CAEBDF1B3F76F25859A661FD4C0CD90F1D15DEFF7AA14F29C7F3FE61A9C24', 'dasfdfsdfsdf', '', '127.0.0.1')": Unknown column 'mail' in 'field list'
+[19:33:29] [WARNING] mysql_connect: no password specified
+[19:33:43] [ERROR] error #1054 while executing query "INSERT INTO `users` (`name`, `password`, `mail`, `gender`, ip) VALUES ('buNNy', '', 'asdsadasdas', '', '127.0.0.1')": Unknown column 'mail' in 'field list'
+[20:12:22] [WARNING] mysql_connect: no password specified
+[20:12:22] [ERROR] mysql_tquery: callback error: callback "LoadBizz" does not exist
+[20:16:36] [WARNING] mysql_connect: no password specified
+[20:16:36] [ERROR] mysql_tquery: callback error: callback "LoadBizz" does not exist
+[20:17:52] [WARNING] mysql_connect: no password specified
+[20:17:52] [ERROR] mysql_tquery: callback error: callback "LoadBizz" does not exist
+[20:18:21] [WARNING] mysql_connect: no password specified
+[20:18:21] [ERROR] mysql_tquery: callback error: callback "LoadBizz" does not exist
+[20:18:49] [WARNING] mysql_connect: no password specified
+[20:18:49] [ERROR] mysql_tquery: callback error: callback "LoadBizz" does not exist
+[20:29:24] [WARNING] mysql_connect: no password specified
+[20:34:54] [WARNING] mysql_connect: no password specified
+[20:54:49] [WARNING] mysql_connect: no password specified
+[20:55:18] [WARNING] mysql_connect: no password specified
+[21:02:53] [WARNING] mysql_connect: no password specified
+[21:12:12] [WARNING] mysql_connect: no password specified
+[22:18:29] [WARNING] mysql_connect: no password specified
+[22:19:25] [WARNING] mysql_connect: no password specified
+[22:22:21] [WARNING] mysql_connect: no password specified
+[22:27:31] [WARNING] mysql_connect: no password specified
+[22:32:49] [WARNING] mysql_connect: no password specified
+[22:32:59] [WARNING] mysql_connect: no password specified
+[23:39:18] [WARNING] mysql_connect: no password specified
+[08:42:15] [ERROR] mysql_tquery: invalid connection handle '0'
+[08:42:15] [WARNING] mysql_connect: no password specified
+[08:45:52] [ERROR] mysql_tquery: invalid connection handle '0'
+[08:45:52] [WARNING] mysql_connect: no password specified
+[08:46:52] [WARNING] mysql_connect: no password specified
+[13:50:52] [WARNING] mysql_connect: no password specified
+[18:02:28] [WARNING] mysql_connect: no password specified
+[18:03:58] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES ('0', ''AdmBot'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AdmBot'' at line 1
+[18:07:14] [WARNING] mysql_connect: no password specified
+[18:08:44] [WARNING] mysql_connect: no password specified
+[18:10:47] [WARNING] mysql_connect: no password specified
+[18:14:55] [WARNING] mysql_connect: no password specified
+[18:17:51] [WARNING] mysql_connect: no password specified
+[18:25:28] [WARNING] mysql_connect: no password specified
+[18:28:39] [WARNING] mysql_connect: no password specified
+[18:31:28] [WARNING] mysql_connect: no password specified
+[18:33:32] [WARNING] mysql_connect: no password specified
+[18:35:23] [WARNING] mysql_connect: no password specified
+[18:37:26] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES ('0', ''AdmBot'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AdmBot'' at line 1
+[18:45:34] [WARNING] mysql_connect: no password specified
+[18:46:32] [WARNING] mysql_connect: no password specified
+[18:47:02] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES ('2', ''AdmBot'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AdmBot'' at line 1
+[18:47:59] [WARNING] mysql_connect: no password specified
+[18:48:50] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES ('2', ''AdmBot'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AdmBot'' at line 1
+[18:49:03] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES ('2', ''AdmBot'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AdmBot'' at line 1
+[18:49:09] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES ('2', ''AdmBot'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AdmBot'' at line 1
+[18:49:12] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES ('2', ''AdmBot'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AdmBot'' at line 1
+[18:50:59] [WARNING] mysql_connect: no password specified
+[18:51:38] [WARNING] mysql_connect: no password specified
+[18:52:20] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES ('2', ''AdmBot'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AdmBot'' at line 1
+[18:53:46] [WARNING] mysql_connect: no password specified
+[18:54:22] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES ('2', ''AdmBot'": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AdmBot'' at line 1
+[18:58:49] [WARNING] mysql_connect: no password specified
+[18:59:12] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES ('2', 'AdmBot, ": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''AdmBot,' at line 1
+[19:01:01] [WARNING] mysql_connect: no password specified
+[19:15:26] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES ('3', 'AdmBot, ": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''AdmBot,' at line 1
+[19:19:45] [WARNING] mysql_connect: no password specified
+[19:21:22] [WARNING] mysql_connect: no password specified
+[19:22:53] [WARNING] mysql_connect: no password specified
+[19:24:03] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `interior`) VALUES ('4', 'AdmBot, '1', '2222', '1160432048')": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1', '2222', '1160432048')' at line 1
+[19:25:24] [WARNING] mysql_connect: no password specified
+[19:25:53] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `interior`) VALUES ('1', 'AdmBot, '1', '2222', '1160415255')": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1', '2222', '1160415255')' at line 1
+[19:31:01] [WARNING] mysql_connect: no password specified
+[19:31:29] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `interior`) VALUES ('1', 'AdmBot, '1', '2222', '0')": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1', '2222', '0')' at line 1
+[09:06:23] [WARNING] mysql_connect: no password specified
+[09:10:58] [WARNING] mysql_connect: no password specified
+[09:13:33] [ERROR] error #1064 while executing query "INSERT INTO `businesses` (`owner`, `model`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `price`, `interior`) VALUES ('AdmBot', '1', '2342": You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''2342' at line 1
+[09:15:12] [WARNING] mysql_connect: no password specified
+[09:16:15] [WARNING] mysql_connect: no password specified
+[09:20:57] [WARNING] mysql_connect: no password specified
+[09:24:28] [WARNING] mysql_connect: no password specified
+[09:27:18] [WARNING] mysql_connect: no password specified
+[09:31:31] [WARNING] mysql_connect: no password specified
+[09:34:49] [WARNING] mysql_connect: no password specified
+[09:35:15] [WARNING] mysql_connect: no password specified
+[09:36:41] [WARNING] mysql_connect: no password specified
+[09:38:24] [WARNING] mysql_connect: no password specified
+[09:39:12] [WARNING] mysql_connect: no password specified
+[09:41:26] [WARNING] mysql_connect: no password specified
+[09:48:01] [WARNING] mysql_connect: no password specified
+[09:48:06] [WARNING] mysql_connect: no password specified
+[09:50:58] [WARNING] mysql_connect: no password specified
+[09:51:55] [WARNING] mysql_connect: no password specified
+[09:52:54] [WARNING] mysql_connect: no password specified
+[09:55:01] [WARNING] mysql_connect: no password specified
+[09:57:17] [WARNING] mysql_connect: no password specified
+[09:59:08] [WARNING] mysql_connect: no password specified
+[10:00:35] [WARNING] mysql_connect: no password specified
+[10:01:45] [WARNING] mysql_connect: no password specified
+[10:03:12] [WARNING] mysql_connect: no password specified
+[10:07:14] [WARNING] mysql_connect: no password specified
+[10:37:34] [WARNING] mysql_connect: no password specified
+[10:38:15] [WARNING] mysql_connect: no password specified
+[10:57:31] [WARNING] mysql_connect: no password specified
+[11:02:25] [WARNING] mysql_connect: no password specified
+[11:03:33] [WARNING] mysql_connect: no password specified
+[11:07:59] [WARNING] mysql_connect: no password specified
+[11:09:17] [WARNING] mysql_connect: no password specified
+[11:10:11] [WARNING] mysql_connect: no password specified
+[11:10:57] [WARNING] mysql_connect: no password specified
+[13:39:59] [WARNING] mysql_connect: no password specified
+[13:43:42] [WARNING] mysql_connect: no password specified
+[14:36:07] [WARNING] mysql_connect: no password specified
+[14:53:52] [WARNING] mysql_connect: no password specified
+[14:54:04] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[14:56:56] [WARNING] mysql_connect: no password specified
+[14:57:24] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[11:45:27] [WARNING] mysql_connect: no password specified
+[11:46:48] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[12:27:56] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'sa-mp.me' (10061)'
+[12:27:59] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'sa-mp.me' (10061)'
+[12:28:02] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'sa-mp.me' (10061)'
+[12:28:05] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'sa-mp.me' (10061)'
+[12:28:16] [ERROR] mysql_format: can't escape string 'buNNy'
+[12:42:53] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'sa-mp.me' (10061)'
+[12:42:56] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'sa-mp.me' (10061)'
+[12:42:58] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'sa-mp.me' (10061)'
+[12:43:02] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'sa-mp.me' (10061)'
+[12:43:03] [WARNING] mysql_connect: no password specified
+[12:47:29] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[13:58:33] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[14:08:29] [ERROR] error #1054 while executing query "UPDATE `users` SET `businnes` = '3'": Unknown column 'businnes' in 'field list'
+[21:58:26] [WARNING] mysql_connect: no password specified
+[21:58:41] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[08:03:55] [WARNING] mysql_connect: no password specified
+[08:05:34] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[08:31:27] [WARNING] mysql_connect: no password specified
+[08:42:02] [WARNING] mysql_connect: no password specified
+[08:43:54] [WARNING] mysql_connect: no password specified
+[08:44:35] [WARNING] mysql_connect: no password specified
+[08:45:08] [WARNING] mysql_connect: no password specified
+[08:48:37] [WARNING] mysql_connect: no password specified
+[08:48:40] [WARNING] mysql_connect: no password specified
+[08:50:15] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[08:54:06] [WARNING] mysql_connect: no password specified
+[08:54:38] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[08:58:09] [WARNING] mysql_connect: no password specified
+[09:34:38] [WARNING] mysql_connect: no password specified
+[09:35:56] [WARNING] mysql_connect: no password specified
+[10:38:39] [WARNING] mysql_connect: no password specified
+[10:39:45] [WARNING] mysql_connect: no password specified
+[10:54:52] [WARNING] mysql_connect: no password specified
+[10:59:12] [WARNING] mysql_connect: no password specified
+[11:01:17] [WARNING] mysql_connect: no password specified
+[11:07:12] [WARNING] mysql_connect: no password specified
+[11:09:05] [WARNING] mysql_connect: no password specified
+[11:14:45] [WARNING] mysql_connect: no password specified
+[11:15:53] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[11:19:05] [WARNING] mysql_connect: no password specified
+[11:19:15] [WARNING] mysql_connect: no password specified
+[11:21:58] [WARNING] mysql_connect: no password specified
+[16:36:30] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[16:37:58] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[16:40:06] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[20:48:59] [WARNING] mysql_connect: no password specified
+[20:49:56] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[20:54:36] [WARNING] mysql_connect: no password specified
+[20:55:00] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[21:04:21] [WARNING] mysql_connect: no password specified
+[21:04:41] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[21:07:46] [WARNING] mysql_connect: no password specified
+[21:08:13] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[21:39:39] [WARNING] mysql_connect: no password specified
+[21:39:39] [ERROR] cache_get_value_name: field 'ownerid' not found
+[21:39:39] [ERROR] cache_get_value_name: field 'ownerid' not found
+[21:39:39] [ERROR] cache_get_value_name: field 'ownerid' not found
+[21:39:39] [ERROR] cache_get_value_name: field 'ownerid' not found
+[21:39:39] [ERROR] cache_get_value_name: field 'ownerid' not found
+[21:39:39] [ERROR] cache_get_value_name: field 'ownerid' not found
+[21:39:39] [ERROR] cache_get_value_name: field 'ownerid' not found
+[21:40:02] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[07:48:39] [WARNING] mysql_connect: no password specified
+[07:48:43] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[07:48:47] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[07:48:52] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[07:48:56] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[17:22:58] [WARNING] mysql_connect: no password specified
+[17:22:58] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'secret0''
+[17:22:58] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'secret0''
+[17:22:58] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'secret0''
+[17:22:58] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'secret0''
+[17:27:04] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:38 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:174 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:236)
+[17:54:16] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:37 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[17:55:07] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:37 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[17:56:09] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:38 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[17:57:21] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[17:57:21] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[17:57:21] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[17:57:21] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[17:57:21] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[17:57:21] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[17:57:21] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:56)
+[17:57:21] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:59)
+[19:06:43] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:38 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[19:08:38] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[19:08:38] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[19:08:38] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[19:08:38] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[19:08:38] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[19:08:38] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[19:08:38] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:56)
+[19:08:38] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:59)
+[19:24:00] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:38 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:127 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[19:24:35] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[19:24:35] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[19:24:35] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[19:24:35] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[19:24:35] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[19:24:35] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[19:24:35] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:56)
+[19:24:35] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:59)
+[21:03:24] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:44 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[21:04:44] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[21:04:44] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[21:04:44] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[21:04:44] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[21:04:44] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[21:04:44] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[21:04:44] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:56)
+[21:04:44] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:59)
+[21:59:11] [WARNING] mysql_connect: no password specified
+[21:59:11] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'secret0''
+[21:59:11] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'secret0''
+[21:59:11] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'secret0''
+[21:59:11] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'secret0''
+[21:59:24] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:42 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[21:59:49] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:42 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[22:02:57] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:42 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[22:03:21] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[22:03:21] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[22:03:21] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[22:03:21] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[22:03:21] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[22:03:21] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[22:03:21] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:56)
+[22:03:21] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:59)
+[22:09:14] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:42 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[22:10:41] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[22:10:41] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[22:10:41] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[22:10:41] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[22:10:41] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[22:10:41] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[22:10:41] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:56)
+[22:10:41] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:59)
+[22:39:30] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:42 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:02:54] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:43 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:05:30] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:43 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:05:45] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:43 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:07:12] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:43 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:09:05] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:43 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:09:39] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:43 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:17:47] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:43 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:18:30] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:49)
+[23:18:30] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[23:18:30] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[23:18:30] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[23:18:30] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[23:18:30] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[23:18:30] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[23:18:30] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:58)
+[23:22:47] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:43 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:23:41] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:49)
+[23:23:41] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[23:23:41] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[23:23:41] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[23:23:41] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[23:23:41] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[23:23:41] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[23:23:41] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:58)
+[23:26:41] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:27:18] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:49)
+[23:27:18] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[23:27:18] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[23:27:18] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[23:27:18] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[23:27:18] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[23:27:18] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[23:27:18] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:58)
+[23:30:02] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:30:34] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:35:11] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:36:26] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:49)
+[23:36:26] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[23:36:26] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[23:36:26] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[23:36:26] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[23:36:26] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[23:36:26] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[23:36:26] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:58)
+[23:38:02] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:38:19] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:49)
+[23:38:19] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[23:38:19] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[23:38:19] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[23:38:19] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[23:38:19] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[23:38:19] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[23:38:19] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:58)
+[23:38:40] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:38:57] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:49)
+[23:38:57] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[23:38:57] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[23:38:57] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[23:38:57] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[23:38:57] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[23:38:57] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[23:38:57] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:58)
+[23:43:33] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:43:51] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:49)
+[23:43:51] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[23:43:51] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[23:43:51] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[23:43:51] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[23:43:51] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[23:43:51] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[23:43:51] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:58)
+[23:44:02] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:44:19] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:49)
+[23:44:19] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[23:44:19] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[23:44:19] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[23:44:19] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[23:44:19] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[23:44:19] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[23:44:19] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:58)
+[23:45:27] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:45:48] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:49)
+[23:45:48] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[23:45:48] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[23:45:48] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[23:45:48] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[23:45:48] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[23:45:48] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[23:45:48] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:58)
+[23:46:44] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:47:09] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:49)
+[23:47:09] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:50)
+[23:47:09] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:51)
+[23:47:09] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:52)
+[23:47:09] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:53)
+[23:47:09] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:54)
+[23:47:09] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:55)
+[23:47:09] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0') (../includes/funcs.inc:58)
+[23:49:10] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[23:51:40] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[00:08:15] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[00:09:23] [ERROR] cache_get_value_name_int: field 'businnes' not found (../includes/funcs.inc:55)
+[00:11:32] [ERROR] mysql_tquery: invalid connection handle '0' (../includes/funcs.inc:2 -> C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:30 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[00:11:32] [ERROR] mysql_tquery: invalid connection handle '0' (../includes/funcs.inc:3 -> C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:30 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[00:11:33] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:53 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[00:12:57] [ERROR] mysql_tquery: invalid connection handle '0' (../includes/funcs.inc:2 -> C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:30 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[00:12:57] [ERROR] mysql_tquery: invalid connection handle '0' (../includes/funcs.inc:3 -> C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:30 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[00:12:57] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:52 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[00:13:20] [ERROR] cache_get_value_name_int: field 'businnes' not found (../includes/funcs.inc:55)
