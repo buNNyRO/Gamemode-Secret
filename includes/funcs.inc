@@ -52,6 +52,7 @@ function AccountLoad(playerid) {
 		cache_get_value_name_int(0, "admin", PlayerInfo[playerid][pAdmin]);
 		cache_get_value_name_int(0, "helper", PlayerInfo[playerid][pHelper]);
 		cache_get_value_name_int(0, "businnes", PlayerInfo[playerid][pBizz]);
+		cache_get_value_name_int(0, "skin", PlayerInfo[playerid][pSkin]);
 
 		new string[48];
 		cache_get_value_name(0, "licenses", string, 48);

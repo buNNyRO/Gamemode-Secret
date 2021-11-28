@@ -952,6 +952,7 @@
 			<referrer name="pc_cmd_helpers"/>
 		</member>
 		<member name="F:Iterator@serverLogged">
+			<referrer name="OnPlayerRequestClass"/>
 			<referrer name="_y_utils_OnPlayerDisconnect"/>
 			<referrer name="OnPlayerText"/>
 			<referrer name="OnPlayerCommandPerformed"/>
@@ -9078,6 +9079,7 @@
 		</member>
 		<member name="M:Iter_Contains_InternalC" syntax="Iter_Contains_InternalC(array[], size, value)">
 			<stacksize value="1"/>
+			<referrer name="OnPlayerRequestClass"/>
 			<referrer name="OnPlayerText"/>
 			<referrer name="ecp_OnPlayerEnterCheckpoint"/>
 			<referrer name="OnPlayerCommandPerformed"/>
@@ -10911,7 +10913,10 @@
 		</member>
 		<member name="M:OnPlayerRequestClass" syntax="OnPlayerRequestClass(playerid, classid)">
 			<attribute name="public"/>
-			<stacksize value="1"/>
+			<stacksize value="6"/>
+			<dependency name="Iter_Contains_InternalC"/>
+			<dependency name="Iterator@serverLogged"/>
+			<dependency name="SpawnPlayer"/>
 			<param name="playerid">
 			</param>
 			<param name="classid">
@@ -12348,16 +12353,6 @@
 				<paraminfo>Float </paraminfo>
 			</param>
 		</member>
-		<member name="M:SetPlayerTime" syntax="SetPlayerTime(playerid, hour, minute)">
-			<attribute name="native"/>
-			<referrer name="_y_utils_OnPlayerConnect"/>
-			<param name="playerid">
-			</param>
-			<param name="hour">
-			</param>
-			<param name="minute">
-			</param>
-		</member>
 		<member name="M:SetPlayerVirtualWorld" syntax="SetPlayerVirtualWorld(playerid, worldid)">
 			<attribute name="native"/>
 			<referrer name="examPlayerFailed"/>
@@ -12515,6 +12510,7 @@
 		</member>
 		<member name="M:SpawnPlayer" syntax="SpawnPlayer(playerid)">
 			<attribute name="native"/>
+			<referrer name="OnPlayerRequestClass"/>
 			<referrer name="AccountLoad"/>
 			<param name="playerid">
 			</param>
@@ -13369,7 +13365,6 @@
 			<dependency name="GetName"/>
 			<dependency name="PlayAudioStreamForPlayer"/>
 			<dependency name="SQL"/>
-			<dependency name="SetPlayerTime"/>
 			<dependency name="SetSpawnInfo"/>
 			<dependency name="TogglePlayerSpectating"/>
 			<dependency name="mysql_tquery"/>

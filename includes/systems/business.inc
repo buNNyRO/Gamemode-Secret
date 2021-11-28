@@ -70,7 +70,7 @@ function loadDynamicBIZZ() {
 	return 1;
 }
 
-CMD:gotobiz(playerid, params[]) {
+bunny:gotobiz(playerid, params[]) {
 	if(PlayerInfo[playerid][pAdmin] < 1) return SCM(playerid, -1, EROR"Nu ai gradul administrativ necesar pentru a folosii aceasta comanda.");
 	new id;
 	if(sscanf(params,"d", id)) return SCM(playerid, -1, SYNTAX"/gotobiz [id]");
@@ -78,7 +78,7 @@ CMD:gotobiz(playerid, params[]) {
 	return 1;
 }
 
-CMD:movebiz(playerid, params[]) {
+bunny:movebiz(playerid, params[]) {
 	if(PlayerInfo[playerid][pAdmin] < 5) return SCM(playerid, -1, EROR"Nu ai gradul administrativ necesar pentru a folosii aceasta comanda.");
 	new id;
 	if(sscanf(params,"d", id)) return SCM(playerid, -1, SYNTAX"/gotobiz [id]");
@@ -96,8 +96,8 @@ CMD:movebiz(playerid, params[]) {
 	return 1;
 }
 
-CMD:createbiz(playerid, params[]) {
-	if(PlayerInfo[playerid][pAdmin] < 6) return SCM(playerid, -1, EROR"Nu ai gradul administrativ necesar pentru a folosii aceasta comanda.");
+bunny:createbiz(playerid, params[]) {
+	if(PlayerInfo[playerid][pAdmin] < MAX_ADMIN_LEVEL) return SCM(playerid, -1, EROR"Nu ai gradul administrativ necesar pentru a folosii aceasta comanda.");
 	new price, model[30];
 	if(sscanf(params,"s[30]d", model, price)) {
 		SCM(playerid, -1, SYNTAX"/createbiz [model] [price]");
@@ -148,7 +148,7 @@ CMD:createbiz(playerid, params[]) {
 	return 1;
 }
 
-CMD:buybiz(playerid, params[]) {
+bunny:buybiz(playerid, params[]) {
 	if(PlayerInfo[playerid][pBizz] != 0) return SCM(playerid, -1, EROR"Esti proprietar-ul unei companii.");
 	if(!IsPlayerInAnyArea(playerid)) return SCM(playerid, -1, EROR"Nu esti in aproprierea unei companii.");
 	foreach(new i : serverBusinesses) {

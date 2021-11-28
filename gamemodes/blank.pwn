@@ -61,6 +61,7 @@ public OnGameModeExit() {
 }
 
 public OnPlayerRequestClass(playerid, classid) {
+	if(Iter_Contains(serverLogged, playerid)) return SpawnPlayer(playerid);
 	return 1;
 }
 
@@ -71,7 +72,7 @@ public OnPlayerConnect(playerid) {
 	playerTD(playerid);
 	TogglePlayerSpectating(playerid, 1);
 
-	SetSpawnInfo(playerid, 0, 250, 1675.7025,1447.7917,10.7866,269.5700, -1, -1, -1, -1, -1, -1);
+	SetSpawnInfo(playerid, 0, 223, 1675.7025,1447.7917,10.7866,269.5700, -1, -1, -1, -1, -1, -1);
 
 	mysql_tquery(SQL, query("SELECT * FROM `users` WHERE `name` = '%s'", GetName(playerid)), "CheckAccount", "d", playerid);
 	return 1;
@@ -96,6 +97,7 @@ public OnPlayerSpawn(playerid) {
 	SetPlayerPos(playerid, 1675.7025,1447.7917,10.7866);
 	SetPlayerFacingAngle(playerid, 269.5700);
 	SetCameraBehindPlayer(playerid);
+	SetPlayerSkin(playerid, PlayerInfo)
 	return 1;
 }
 

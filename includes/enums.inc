@@ -3,7 +3,7 @@ enum {
 };
 
 enum ENUM_PLAYER_DATA {
-	pSQLID, pUsername[32], pMail[64], pGender, pPassword[65], pAdmin, pHelper, pExamVehicle, pExamCheckpoint, pBizz,
+	pSQLID, pUsername[32], pMail[64], pGender, pPassword[65], pAdmin, pHelper, pExamVehicle, pExamCheckpoint, pBizz, pSkin,
 	pDrivingLicense, pGunLicense, pFlyLicense, pSailingLicense, pDrivingLicenseSuspend, pGunLicenseSuspend, pFlyLicenseSuspend, pSailingLicenseSuspend
 };
 
