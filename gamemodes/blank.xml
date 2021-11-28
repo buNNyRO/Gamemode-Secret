@@ -849,6 +849,10 @@
 			<referrer name="AccountLoad"/>
 			<referrer name="pc_cmd_helpers"/>
 		</member>
+		<member name="F:Iter_Single@serverLogged">
+			<referrer name="_y_utils_OnPlayerDisconnect"/>
+			<referrer name="AccountLoad"/>
+		</member>
 		<member name="F:Iter_Single@serverNewbies">
 			<referrer name="pc_cmd_newbie"/>
 			<referrer name="pc_cmd_questions"/>
@@ -946,6 +950,12 @@
 			<referrer name="_y_utils_OnPlayerDisconnect"/>
 			<referrer name="AccountLoad"/>
 			<referrer name="pc_cmd_helpers"/>
+		</member>
+		<member name="F:Iterator@serverLogged">
+			<referrer name="_y_utils_OnPlayerDisconnect"/>
+			<referrer name="OnPlayerText"/>
+			<referrer name="OnPlayerCommandPerformed"/>
+			<referrer name="AccountLoad"/>
 		</member>
 		<member name="F:Iterator@serverNewbies">
 			<referrer name="pc_cmd_newbie"/>
@@ -2553,9 +2563,11 @@
 			<dependency name="Iter_Add_InternalC"/>
 			<dependency name="Iter_Single@serverAdmins"/>
 			<dependency name="Iter_Single@serverHelpers"/>
+			<dependency name="Iter_Single@serverLogged"/>
 			<dependency name="Iter_Single@serverStaff"/>
 			<dependency name="Iterator@serverAdmins"/>
 			<dependency name="Iterator@serverHelpers"/>
+			<dependency name="Iterator@serverLogged"/>
 			<dependency name="Iterator@serverStaff"/>
 			<dependency name="Logo"/>
 			<dependency name="PlayerInfo"/>
@@ -5334,6 +5346,7 @@
 		<member name="M:CheckAccount" syntax="CheckAccount(playerid)">
 			<attribute name="public"/>
 			<stacksize value="11"/>
+			<dependency name="GameTextForPlayer"/>
 			<dependency name="I@"/>
 			<dependency name="InterpolateCameraLookAt"/>
 			<dependency name="InterpolateCameraPos"/>
@@ -6807,6 +6820,7 @@
 		<member name="M:GameTextForPlayer" syntax="GameTextForPlayer(playerid, string[], time, style)">
 			<attribute name="native"/>
 			<referrer name="va_GameTextForPlayer"/>
+			<referrer name="CheckAccount"/>
 			<param name="playerid">
 			</param>
 			<param name="string">
@@ -9064,7 +9078,9 @@
 		</member>
 		<member name="M:Iter_Contains_InternalC" syntax="Iter_Contains_InternalC(array[], size, value)">
 			<stacksize value="1"/>
+			<referrer name="OnPlayerText"/>
 			<referrer name="ecp_OnPlayerEnterCheckpoint"/>
+			<referrer name="OnPlayerCommandPerformed"/>
 			<referrer name="pc_cmd_newbie"/>
 			<referrer name="pc_cmd_newbiereply"/>
 			<referrer name="pc_cmd_report"/>
@@ -10566,6 +10582,9 @@
 		<member name="M:OnPlayerCommandPerformed" syntax="OnPlayerCommandPerformed(playerid, cmd[], params[], result, flags)">
 			<attribute name="public"/>
 			<stacksize value="7"/>
+			<dependency name="Iter_Contains_InternalC"/>
+			<dependency name="Iterator@serverLogged"/>
+			<dependency name="SendClientMessage"/>
 			<dependency name="va_SendClientMessage"/>
 			<param name="playerid">
 			</param>
@@ -10581,7 +10600,6 @@
 			</param>
 		</member>
 		<member name="M:OnPlayerCommandText" syntax="OnPlayerCommandText(playerid, cmdtext[])">
-			<attribute name="public"/>
 			<stacksize value="1"/>
 			<param name="playerid">
 			</param>
@@ -11020,7 +11038,9 @@
 		</member>
 		<member name="M:OnPlayerText" syntax="OnPlayerText(playerid, text[])">
 			<attribute name="public"/>
-			<stacksize value="1"/>
+			<stacksize value="6"/>
+			<dependency name="Iter_Contains_InternalC"/>
+			<dependency name="Iterator@serverLogged"/>
 			<param name="playerid">
 			</param>
 			<param name="text">
@@ -11236,6 +11256,7 @@
 		<member name="M:PlayAudioStreamForPlayer" syntax="PlayAudioStreamForPlayer(playerid, url[], posX, posY, posZ, distance, usepos)">
 			<attribute name="native"/>
 			<referrer name="_y_utils_OnPlayerConnect"/>
+			<referrer name="pc_cmd_adminchat"/>
 			<param name="playerid">
 			</param>
 			<param name="url">
@@ -12045,6 +12066,7 @@
 			<attribute name="native"/>
 			<referrer name="va_SendClientMessage"/>
 			<referrer name="ecp_OnPlayerEnterCheckpoint"/>
+			<referrer name="OnPlayerCommandPerformed"/>
 			<referrer name="clearChat"/>
 			<referrer name="sendNearbyMessage"/>
 			<referrer name="examPlayerFailed"/>
@@ -12324,6 +12346,16 @@
 			</param>
 			<param name="z">
 				<paraminfo>Float </paraminfo>
+			</param>
+		</member>
+		<member name="M:SetPlayerTime" syntax="SetPlayerTime(playerid, hour, minute)">
+			<attribute name="native"/>
+			<referrer name="_y_utils_OnPlayerConnect"/>
+			<param name="playerid">
+			</param>
+			<param name="hour">
+			</param>
+			<param name="minute">
 			</param>
 		</member>
 		<member name="M:SetPlayerVirtualWorld" syntax="SetPlayerVirtualWorld(playerid, worldid)">
@@ -13337,6 +13369,7 @@
 			<dependency name="GetName"/>
 			<dependency name="PlayAudioStreamForPlayer"/>
 			<dependency name="SQL"/>
+			<dependency name="SetPlayerTime"/>
 			<dependency name="SetSpawnInfo"/>
 			<dependency name="TogglePlayerSpectating"/>
 			<dependency name="mysql_tquery"/>
@@ -13352,9 +13385,11 @@
 			<dependency name="Iter_Remove_InternalC"/>
 			<dependency name="Iter_Single@serverAdmins"/>
 			<dependency name="Iter_Single@serverHelpers"/>
+			<dependency name="Iter_Single@serverLogged"/>
 			<dependency name="Iter_Single@serverStaff"/>
 			<dependency name="Iterator@serverAdmins"/>
 			<dependency name="Iterator@serverHelpers"/>
+			<dependency name="Iterator@serverLogged"/>
 			<dependency name="Iterator@serverStaff"/>
 			<dependency name="PlayerInfo"/>
 			<dependency name="pAdmin"/>
@@ -14710,6 +14745,7 @@
 			<stacksize value="161"/>
 			<dependency name="GetName"/>
 			<dependency name="GetName"/>
+			<dependency name="PlayAudioStreamForPlayer"/>
 			<dependency name="PlayerInfo"/>
 			<dependency name="PlayerInfo"/>
 			<dependency name="SendClientMessage"/>

@@ -26,12 +26,12 @@ Dialog:DIALOG_PASSWORD(playerid, response, listitem, inputtext[]) {
 		   
 	mysql_tquery(SQL, query("INSERT INTO `users` (`name`, `password`, `mail`, `gender`, `ip`) VALUES ('%s', '%s', '%s', '%d', '%s')", GetName(playerid), PlayerInfo[playerid][pPassword], PlayerInfo[playerid][pMail], PlayerInfo[playerid][pGender], ip), "", "");
 		   
-	Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, PRIMARY"Login"ALB" Parola", "Bine ai (re)venit !\nTrebuie sa iti introduci parola contului tau mai jos.\n", "Login", "Cancel");
+	Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, PRIMARY"Login"ALB" Parola", "Trebuie sa iti introduci parola contului tau mai jos.\n", "Login", "Cancel");
     return 1;
 }
 Dialog:DIALOG_LOGIN(playerid, response, listitem, inputtext[]) {
     if(!response) return Kick(playerid);
-    if(!strlen(inputtext)) return Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, PRIMARY"Login"ALB" Parola", "Bine ai (re)venit !\nTrebuie sa iti introduci parola contului tau mai jos.\n", "Login", "Cancel");
+    if(!strlen(inputtext)) return Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, PRIMARY"Login"ALB" Parola", "Trebuie sa iti introduci parola contului tau mai jos.\n", "Login", "Cancel");
 
     new passwordHash[65];
     SHA256_PassHash(inputtext, password_salt, passwordHash, sizeof passwordHash);

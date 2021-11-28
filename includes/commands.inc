@@ -15,7 +15,7 @@ bunny:exam(playerid, params[]) {
 	if(PlayerInfo[playerid][pDrivingLicense] > 0)
 		return SCM(playerid, -1, EROR"Nu poti sa incepi examenul deoarece ai deja o licenta pentru condus valida.");
 
-	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 2781.2178, -1813.0525, 11.8438) || GetPlayerVirtualWorld(playerid) != 0)
+	if(!IsPlayerInRangeOfPoint(playerid, 3.0, 1707.1661,1362.4440,10.7520) || GetPlayerVirtualWorld(playerid) != 0)
 		return SCM(playerid, -1, EROR"Nu esti in zona DMV-ului. Foloseste comanda '/locations' pentru a ajunge la aceasta locatie.");
 
 	if(IsPlayerInAnyVehicle(playerid))
@@ -138,6 +138,8 @@ bunny:gotoxyz(playerid, params[]) {
 
 alias:adminchat("a")
 bunny:adminchat(playerid, params[]) {
+	PlayAudioStreamForPlayer(playerid, "https://uploadir.com/u/6q5yfgdt");
+
 	if(PlayerInfo[playerid][pAdmin] >= 1) {
 		new admintext[128];
 		if(sscanf(params,"s[128]", admintext)) return SCM(playerid, -1, SYNTAX"/(a)dminchat [text]");

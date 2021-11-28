@@ -10,7 +10,7 @@ new MySQL: SQL,
 
 //iteratori
 	Iterator:serverAdmins<MAX_PLAYERS>, Iterator:serverHelpers<MAX_PLAYERS>, Iterator:serverStaff<MAX_PLAYERS>, Iterator:serverReports<MAX_PLAYERS>, 
-	Iterator:serverNewbies<MAX_PLAYERS>, Iterator: serverExam<MAX_DMV_CP>,
+	Iterator:serverNewbies<MAX_PLAYERS>, Iterator: serverExam<MAX_DMV_CP>, Iterator: serverLogged<MAX_PLAYERS>,
 //pText
 	PlayerText:Logo, PlayerText:Info,
 //Text

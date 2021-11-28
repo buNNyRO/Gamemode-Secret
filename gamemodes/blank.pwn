@@ -1,5 +1,5 @@
 #define server_hostname 			"Outer Banks"
-#define server_version  			"v0.1"
+#define server_version  			"v0.0.2"
 #define server_version_name  		"blank"
 #define server_mapname 				"LV"
 #define server_weburl   			"secret.ro"
@@ -26,6 +26,10 @@
 #include "../includes/dialogs"
 
 public OnGameModeInit() {
+	SQL = mysql_connect(mysql_host, mysql_user, mysql_pass, mysql_data);
+	if(mysql_errno() != 0) print("SQL >> Could not connect to database.");
+	else print("SQL >> Database connection established !");
+
 	serverSys();
 	serverMaps();
 	globalTD();
@@ -48,10 +52,6 @@ public OnGameModeInit() {
 	SendRconCommand("weburl "server_weburl"");
 
 	AddPlayerClass(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-	
-	SQL = mysql_connect(mysql_host, mysql_user, mysql_pass, mysql_data);
-	if(mysql_errno() != 0) print("SQL >> Could not connect to database.");
-	else print("SQL >> Database connection established !");
 	return 1;
 }
 
@@ -65,7 +65,7 @@ public OnPlayerRequestClass(playerid, classid) {
 }
 
 public OnPlayerConnect(playerid) {
-	PlayAudioStreamForPlayer(playerid, "https://uploadir.com/u/o9d5vax4");
+	PlayAudioStreamForPlayer(playerid, "https://uploadir.com/u/4d4j2zsd");
 
 	serverRemoveMaps(playerid);
 	playerTD(playerid);
@@ -78,7 +78,7 @@ public OnPlayerConnect(playerid) {
 }
 
 public OnPlayerDisconnect(playerid, reason) {
-
+	Iter_Remove(serverLogged, playerid);
 	if(PlayerInfo[playerid][pAdmin] > 0) {
 		Iter_Remove(serverAdmins, playerid);
 		Iter_Remove(serverStaff, playerid);
@@ -99,45 +99,40 @@ public OnPlayerSpawn(playerid) {
 	return 1;
 }
 
-public OnPlayerDeath(playerid, killerid, reason)
-{
+public OnPlayerDeath(playerid, killerid, reason) {
+
 	return 1;
 }
 
-public OnVehicleSpawn(vehicleid)
-{
+public OnVehicleSpawn(vehicleid) {
+
 	return 1;
 }
 
-public OnVehicleDeath(vehicleid, killerid)
-{
+public OnVehicleDeath(vehicleid, killerid) {
+
 	return 1;
 }
 
-public OnPlayerText(playerid, text[])
-{
+public OnPlayerText(playerid, text[]) {
+	if(!Iter_Contains(serverLogged, playerid)) return 1;
 	return 1;
 }
 
-public OnPlayerCommandText(playerid, cmdtext[])
-{
-	return 0;
-}
+public OnPlayerEnterVehicle(playerid, vehicleid, ispassenger) {
 
-public OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
-{
 	return 1;
 }
 
-public OnPlayerExitVehicle(playerid, vehicleid)
-{
+public OnPlayerExitVehicle(playerid, vehicleid) {
+
 	if(vehicleid == PlayerInfo[playerid][pExamVehicle]) examPlayerFailed(playerid);
 	
 	return 1;
 }
 
-public OnPlayerStateChange(playerid, newstate, oldstate)
-{
+public OnPlayerStateChange(playerid, newstate, oldstate) {
+
 	if(newstate == PLAYER_STATE_ONFOOT && oldstate == PLAYER_STATE_DRIVER) {
 		if(IsValidVehicle(PlayerInfo[playerid][pExamVehicle])) {
 			examPlayerFailed(playerid);
@@ -146,8 +141,8 @@ public OnPlayerStateChange(playerid, newstate, oldstate)
 	return 1;
 }
 
-public OnPlayerEnterCheckpoint(playerid)
-{
+public OnPlayerEnterCheckpoint(playerid) {
+
 	if(PlayerInfo[playerid][pExamCheckpoint] > 0 && IsPlayerInVehicle(playerid, PlayerInfo[playerid][pExamVehicle])) {
 		DisablePlayerCheckpoint(playerid);
 		PlayerInfo[playerid][pExamCheckpoint] ++;
@@ -163,7 +158,7 @@ public OnPlayerEnterCheckpoint(playerid)
 			DestroyVehicle(PlayerInfo[playerid][pExamVehicle]);
 			PlayerInfo[playerid][pExamVehicle] = INVALID_VEHICLE_ID;
 			PlayerInfo[playerid][pExamCheckpoint] = 0;
-			SetPlayerPos(playerid, 2781.2178, -1813.0525, 11.8438);
+			SetPlayerPos(playerid, 1707.1661,1362.4440,10.7520);
 
 			SendClientMessage(playerid, COLOR_WHITE, ">>"PRIMARY"Finish"ALB": Ai terminat examen-ul auto. Ai primit licenta de condus pentru 100 ore.");
 			return true;
@@ -177,6 +172,7 @@ public OnPlayerEnterCheckpoint(playerid)
 }
 
 public OnPlayerCommandPerformed(playerid, cmd[], params[], result, flags) {
+	if(!Iter_Contains(serverLogged, playerid)) return SCM(playerid, -1, GRAY"SERVER:"ALB" You not logged.");
     if(result == -1) {
         SCMf(playerid, -1, GRAY"(/%s)"ALB": Unknown command.", cmd);
         return 0; 
@@ -189,8 +185,8 @@ public OnPlayerClickPlayerTextDraw(playerid, PlayerText:playertextid) {
     return 1;
 }
 
-public OnPlayerClickPlayer(playerid, clickedplayerid, source)
-{
+public OnPlayerClickPlayer(playerid, clickedplayerid, source) {
+
 	return 1;
 }
 

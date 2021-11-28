@@ -29,8 +29,7 @@ stock query(const text[], va_args<>) {
 }
 
 function CheckAccount(playerid) {
-	// InterpolateCameraPos(playerid, 1796.492675, 796.915527, 40.102069, 1800.619262, 2315.061035, 48.685932, 60000);
-	// InterpolateCameraLookAt(playerid, 1796.492675, 796.915527, 40.102069, 1800.619262, 2315.061035, 48.685932, 60000);
+	GameTextForPlayer(playerid, "~b~~h~~h~~h~checking your account", 5000, 4);
 
 	InterpolateCameraPos(playerid, 1796.304565, 748.975952, 23.093755, 1797.538696, 2310.052490, 27.493625, 60000);
 	InterpolateCameraLookAt(playerid, 1796.304565, 748.975952, 23.093755, 1797.538696, 2310.052490, 27.493625, 10000);	
@@ -44,7 +43,7 @@ function CheckAccount(playerid) {
 function AccountLoad(playerid) {
     new rows;
     cache_get_row_count(rows);
-    if(!rows) Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, PRIMARY"Login"ALB" Parola", "Bine ai (re)venit !\nTrebuie sa iti introduci parola contului tau mai jos.\n", "Login", "Cancel");
+    if(!rows) Dialog_Show(playerid, DIALOG_LOGIN, DIALOG_STYLE_PASSWORD, PRIMARY"Login"ALB" Parola", "Trebuie sa iti introduci parola contului tau mai jos.\n", "Login", "Cancel");
     else {
     	cache_get_value_name_int(0, "id", PlayerInfo[playerid][pSQLID]);
         cache_get_value_name(0, "password", PlayerInfo[playerid][pPassword]);
@@ -80,6 +79,7 @@ function AccountLoad(playerid) {
 
 		TogglePlayerSpectating(playerid, 0);
         SpawnPlayer(playerid);
+        Iter_Add(serverLogged, playerid);
     }
 	return 1;
 }
@@ -188,7 +188,7 @@ stock examPlayerFailed(playerid) {
 	PlayerInfo[playerid][pExamVehicle] = INVALID_VEHICLE_ID;
 	PlayerInfo[playerid][pExamCheckpoint] = 0;
 
-	SetPlayerPos(playerid, 2781.2178, -1813.0525, 11.8438);
+	SetPlayerPos(playerid, 1707.1661,1362.4440,10.7520);
 	SetPlayerVirtualWorld(playerid, 0);
 	
 	SendClientMessage(playerid, -1, "Ai esuat examen-ul pentru permis-ul auto. Trebuie sa te duci din nou la DMV pentru a da testul din nou.");
