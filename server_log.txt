@@ -1186,3 +1186,588 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [17:12:07] [connection] 192.168.8.104:63095 requests connection cookie.
 [17:12:08] [connection] incoming connection: 192.168.8.104:63095 id: 0
 [17:12:08] [join] mr.bunny has joined the server (0:192.168.8.104)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:38:55] 
+[18:38:55] Server Plugins
+[18:38:55] --------------
+[18:38:55]  Loading plugin: mysql
+[18:38:55]  >> plugin.mysql: R41-4 successfully loaded.
+[18:38:55]   Loaded.
+[18:38:55]  Loading plugin: sscanf
+[18:38:55] 
+
+[18:38:55]  ===============================
+
+[18:38:55]       sscanf plugin loaded.     
+
+[18:38:55]          Version:  2.8.1        
+
+[18:38:55]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:38:55]  ===============================
+
+[18:38:55]   Loaded.
+[18:38:55]  Loading plugin: streamer
+[18:38:55] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[18:38:55]   Loaded.
+[18:38:55]  Loading plugin: pawncmd
+[18:38:55] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[18:38:55]   Loaded.
+[18:38:55]  Loaded 4 plugins.
+
+[18:38:55] 
+[18:38:55] Filterscripts
+[18:38:55] ---------------
+[18:38:55]   Loaded 0 filterscripts.
+
+[18:38:55]  
+[18:38:55]  
+[18:38:55]  
+[18:38:55]  ======================================= 
+[18:38:55]  |                                     | 
+[18:38:55]  |        YSI version 4.00.0001        | 
+[18:38:55]  |        By Alex "Y_Less" Cole        | 
+[18:38:55]  |                                     | 
+[18:38:55]  ======================================= 
+[18:38:55]  
+[18:38:56] SQL >> Database connection established !
+[18:38:56] Number of vehicle models: 0
+[18:38:56] SQL >> Loaded 2 businesses.
+[18:38:56] SQL >> Loaded 12 dmv checkpoints.
+[18:39:01] [connection] 192.168.8.104:56996 requests connection cookie.
+[18:39:02] [connection] incoming connection: 192.168.8.104:56996 id: 0
+[18:39:02] [join] mr.bunny has joined the server (0:192.168.8.104)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:40:46] 
+[18:40:46] Server Plugins
+[18:40:46] --------------
+[18:40:46]  Loading plugin: mysql
+[18:40:46]  >> plugin.mysql: R41-4 successfully loaded.
+[18:40:46]   Loaded.
+[18:40:46]  Loading plugin: sscanf
+[18:40:46] 
+
+[18:40:46]  ===============================
+
+[18:40:46]       sscanf plugin loaded.     
+
+[18:40:46]          Version:  2.8.1        
+
+[18:40:46]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:40:46]  ===============================
+
+[18:40:46]   Loaded.
+[18:40:46]  Loading plugin: streamer
+[18:40:46] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[18:40:46]   Loaded.
+[18:40:46]  Loading plugin: pawncmd
+[18:40:46] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[18:40:46]   Loaded.
+[18:40:46]  Loaded 4 plugins.
+
+[18:40:47] 
+[18:40:47] Filterscripts
+[18:40:47] ---------------
+[18:40:47]   Loaded 0 filterscripts.
+
+[18:40:47]  
+[18:40:47]  
+[18:40:47]  
+[18:40:47]  ======================================= 
+[18:40:47]  |                                     | 
+[18:40:47]  |        YSI version 4.00.0001        | 
+[18:40:47]  |        By Alex "Y_Less" Cole        | 
+[18:40:47]  |                                     | 
+[18:40:47]  ======================================= 
+[18:40:47]  
+[18:40:47] SQL >> Database connection established !
+[18:40:47] Number of vehicle models: 0
+[18:40:47] SQL >> Loaded 2 businesses.
+[18:40:47] SQL >> Loaded 12 dmv checkpoints.
+[18:41:19] [connection] 192.168.8.104:64956 requests connection cookie.
+[18:41:20] [connection] incoming connection: 192.168.8.104:64956 id: 0
+[18:41:20] [join] mr.bunny has joined the server (0:192.168.8.104)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:22:38] 
+[19:22:38] Server Plugins
+[19:22:38] --------------
+[19:22:38]  Loading plugin: mysql
+[19:22:38]  >> plugin.mysql: R41-4 successfully loaded.
+[19:22:38]   Loaded.
+[19:22:38]  Loading plugin: sscanf
+[19:22:38] 
+
+[19:22:38]  ===============================
+
+[19:22:38]       sscanf plugin loaded.     
+
+[19:22:38]          Version:  2.8.1        
+
+[19:22:38]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:22:38]  ===============================
+
+[19:22:38]   Loaded.
+[19:22:38]  Loading plugin: streamer
+[19:22:38] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[19:22:38]   Loaded.
+[19:22:38]  Loading plugin: pawncmd
+[19:22:38] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[19:22:38]   Loaded.
+[19:22:38]  Loaded 4 plugins.
+
+[19:22:38] 
+[19:22:38] Filterscripts
+[19:22:38] ---------------
+[19:22:38]   Loaded 0 filterscripts.
+
+[19:22:38]  
+[19:22:38]  
+[19:22:38]  
+[19:22:38]  ======================================= 
+[19:22:38]  |                                     | 
+[19:22:38]  |        YSI version 4.00.0001        | 
+[19:22:38]  |        By Alex "Y_Less" Cole        | 
+[19:22:38]  |                                     | 
+[19:22:38]  ======================================= 
+[19:22:38]  
+[19:22:38] SQL >> Database connection established !
+[19:22:38] Number of vehicle models: 0
+[19:22:38] SQL >> Loaded 2 businesses.
+[19:22:39] SQL >> Loaded 12 dmv checkpoints.
+[19:22:39] [connection] 192.168.8.104:63779 requests connection cookie.
+[19:22:40] [connection] incoming connection: 192.168.8.104:63779 id: 0
+[19:22:40] [join] mr.bunny has joined the server (0:192.168.8.104)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:24:48] 
+[19:24:48] Server Plugins
+[19:24:48] --------------
+[19:24:48]  Loading plugin: mysql
+[19:24:48]  >> plugin.mysql: R41-4 successfully loaded.
+[19:24:48]   Loaded.
+[19:24:48]  Loading plugin: sscanf
+[19:24:48] 
+
+[19:24:48]  ===============================
+
+[19:24:48]       sscanf plugin loaded.     
+
+[19:24:48]          Version:  2.8.1        
+
+[19:24:48]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:24:48]  ===============================
+
+[19:24:48]   Loaded.
+[19:24:48]  Loading plugin: streamer
+[19:24:48] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[19:24:48]   Loaded.
+[19:24:48]  Loading plugin: pawncmd
+[19:24:48] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[19:24:48]   Loaded.
+[19:24:48]  Loaded 4 plugins.
+
+[19:24:48] 
+[19:24:48] Filterscripts
+[19:24:48] ---------------
+[19:24:48]   Loaded 0 filterscripts.
+
+[19:24:48]  
+[19:24:48]  
+[19:24:48]  
+[19:24:48]  ======================================= 
+[19:24:48]  |                                     | 
+[19:24:48]  |        YSI version 4.00.0001        | 
+[19:24:48]  |        By Alex "Y_Less" Cole        | 
+[19:24:48]  |                                     | 
+[19:24:48]  ======================================= 
+[19:24:48]  
+[19:24:48] SQL >> Database connection established !
+[19:24:48] Number of vehicle models: 0
+[19:24:48] SQL >> Loaded 2 businesses.
+[19:24:48] SQL >> Loaded 12 dmv checkpoints.
+[19:25:11] [connection] 192.168.8.104:53130 requests connection cookie.
+[19:25:12] [connection] incoming connection: 192.168.8.104:53130 id: 0
+[19:25:12] [join] mr.bunny has joined the server (0:192.168.8.104)
+[19:25:21] Veh: 6, Model: 411
+[19:25:21] Veh: 7, Model: 541
+[19:25:21] Veh: 8, Model: 411
+[19:25:21] Veh: 9, Model: 560
+[19:25:21] Veh: 10, Model: 411
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:28:04] 
+[19:28:04] Server Plugins
+[19:28:04] --------------
+[19:28:04]  Loading plugin: mysql
+[19:28:04]  >> plugin.mysql: R41-4 successfully loaded.
+[19:28:04]   Loaded.
+[19:28:04]  Loading plugin: sscanf
+[19:28:04] 
+
+[19:28:04]  ===============================
+
+[19:28:04]       sscanf plugin loaded.     
+
+[19:28:04]          Version:  2.8.1        
+
+[19:28:04]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:28:04]  ===============================
+
+[19:28:04]   Loaded.
+[19:28:04]  Loading plugin: streamer
+[19:28:04] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[19:28:04]   Loaded.
+[19:28:04]  Loading plugin: pawncmd
+[19:28:04] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[19:28:04]   Loaded.
+[19:28:04]  Loaded 4 plugins.
+
+[19:28:04] 
+[19:28:04] Filterscripts
+[19:28:04] ---------------
+[19:28:04]   Loaded 0 filterscripts.
+
+[19:28:04]  
+[19:28:04]  
+[19:28:04]  
+[19:28:04]  ======================================= 
+[19:28:04]  |                                     | 
+[19:28:04]  |        YSI version 4.00.0001        | 
+[19:28:04]  |        By Alex "Y_Less" Cole        | 
+[19:28:04]  |                                     | 
+[19:28:04]  ======================================= 
+[19:28:04]  
+[19:28:05] SQL >> Database connection established !
+[19:28:05] Number of vehicle models: 0
+[19:28:05] SQL >> Loaded 2 businesses.
+[19:28:05] SQL >> Loaded 12 dmv checkpoints.
+[19:28:25] [connection] 192.168.8.104:63509 requests connection cookie.
+[19:28:26] [connection] incoming connection: 192.168.8.104:63509 id: 0
+[19:28:27] [join] mr.bunny has joined the server (0:192.168.8.104)
+[19:28:34] Veh: 6, Model: 411
+[19:28:34] Veh: 7, Model: 541
+[19:28:34] Veh: 8, Model: 411
+[19:28:34] Veh: 9, Model: 560
+[19:28:34] Veh: 10, Model: 411
+[19:28:36] Vehicle	Status	Despawn time
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:34:31] 
+[18:34:31] Server Plugins
+[18:34:31] --------------
+[18:34:31]  Loading plugin: mysql
+[18:34:32]  >> plugin.mysql: R41-4 successfully loaded.
+[18:34:32]   Loaded.
+[18:34:32]  Loading plugin: sscanf
+[18:34:32] 
+
+[18:34:32]  ===============================
+
+[18:34:32]       sscanf plugin loaded.     
+
+[18:34:32]          Version:  2.8.1        
+
+[18:34:32]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:34:32]  ===============================
+
+[18:34:32]   Loaded.
+[18:34:32]  Loading plugin: streamer
+[18:34:32] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[18:34:32]   Loaded.
+[18:34:32]  Loading plugin: pawncmd
+[18:34:32] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[18:34:32]   Loaded.
+[18:34:32]  Loaded 4 plugins.
+
+[18:34:32] 
+[18:34:32] Filterscripts
+[18:34:32] ---------------
+[18:34:32]   Loaded 0 filterscripts.
+
+[18:34:32]  
+[18:34:32]  
+[18:34:32]  
+[18:34:32]  ======================================= 
+[18:34:32]  |                                     | 
+[18:34:32]  |        YSI version 4.00.0001        | 
+[18:34:32]  |        By Alex "Y_Less" Cole        | 
+[18:34:32]  |                                     | 
+[18:34:32]  ======================================= 
+[18:34:32]  
+[18:34:32] SQL >> Database connection established !
+[18:34:32] Number of vehicle models: 0
+[18:34:33] SQL >> Loaded 2 businesses.
+[18:34:33] SQL >> Loaded 12 dmv checkpoints.
+[18:35:40] [connection] 192.168.8.104:50730 requests connection cookie.
+[18:35:41] [connection] incoming connection: 192.168.8.104:50730 id: 0
+[18:35:41] [join] mr.bunny has joined the server (0:192.168.8.104)
+[18:35:51] Veh: 6, Model: 411, total vehicles: 1
+[18:35:51] Veh: 7, Model: 541, total vehicles: 2
+[18:35:51] Veh: 8, Model: 411, total vehicles: 3
+[18:35:51] Veh: 9, Model: 560, total vehicles: 4
+[18:35:51] Veh: 10, Model: 411, total vehicles: 4
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:42:42] 
+[18:42:42] Server Plugins
+[18:42:42] --------------
+[18:42:42]  Loading plugin: mysql
+[18:42:42]  >> plugin.mysql: R41-4 successfully loaded.
+[18:42:42]   Loaded.
+[18:42:42]  Loading plugin: sscanf
+[18:42:42] 
+
+[18:42:42]  ===============================
+
+[18:42:42]       sscanf plugin loaded.     
+
+[18:42:42]          Version:  2.8.1        
+
+[18:42:42]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:42:42]  ===============================
+
+[18:42:42]   Loaded.
+[18:42:42]  Loading plugin: streamer
+[18:42:42] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[18:42:42]   Loaded.
+[18:42:42]  Loading plugin: pawncmd
+[18:42:42] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[18:42:42]   Loaded.
+[18:42:42]  Loaded 4 plugins.
+
+[18:42:42] 
+[18:42:42] Filterscripts
+[18:42:42] ---------------
+[18:42:42]   Loaded 0 filterscripts.
+
+[18:42:42]  
+[18:42:42]  
+[18:42:42]  
+[18:42:42]  ======================================= 
+[18:42:42]  |                                     | 
+[18:42:42]  |        YSI version 4.00.0001        | 
+[18:42:42]  |        By Alex "Y_Less" Cole        | 
+[18:42:42]  |                                     | 
+[18:42:42]  ======================================= 
+[18:42:42]  
+[18:42:42] SQL >> Database connection established !
+[18:42:42] Number of vehicle models: 0
+[18:42:42] SQL >> Loaded 2 businesses.
+[18:42:42] SQL >> Loaded 12 dmv checkpoints.
+[18:42:52] [connection] 192.168.8.104:58045 requests connection cookie.
+[18:42:53] [connection] incoming connection: 192.168.8.104:58045 id: 0
+[18:42:54] [join] mr.bunny has joined the server (0:192.168.8.104)
+[18:44:57] Veh: 6, Model: 411, total vehicles: 1
+[18:44:57] Veh: 7, Model: 541, total vehicles: 2
+[18:44:57] Veh: 8, Model: 411, total vehicles: 3
+[18:44:57] Veh: 9, Model: 560, total vehicles: 4
+[18:44:57] Veh: 10, Model: 411, total vehicles: 5
+[18:44:58] Vehicle	Status	Despawn time
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:55:24] 
+[20:55:24] Server Plugins
+[20:55:24] --------------
+[20:55:24]  Loading plugin: mysql
+[20:55:24]  >> plugin.mysql: R41-4 successfully loaded.
+[20:55:24]   Loaded.
+[20:55:24]  Loading plugin: sscanf
+[20:55:24] 
+
+[20:55:24]  ===============================
+
+[20:55:24]       sscanf plugin loaded.     
+
+[20:55:24]          Version:  2.8.1        
+
+[20:55:24]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:55:24]  ===============================
+
+[20:55:24]   Loaded.
+[20:55:24]  Loading plugin: streamer
+[20:55:24] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[20:55:24]   Loaded.
+[20:55:24]  Loading plugin: pawncmd
+[20:55:24] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[20:55:24]   Loaded.
+[20:55:24]  Loaded 4 plugins.
+
+[20:55:24] 
+[20:55:24] Filterscripts
+[20:55:24] ---------------
+[20:55:24]   Loaded 0 filterscripts.
+
+[20:55:24]  
+[20:55:24]  
+[20:55:24]  
+[20:55:24]  ======================================= 
+[20:55:24]  |                                     | 
+[20:55:24]  |        YSI version 4.00.0001        | 
+[20:55:24]  |        By Alex "Y_Less" Cole        | 
+[20:55:24]  |                                     | 
+[20:55:24]  ======================================= 
+[20:55:24]  
+[20:55:25] SQL >> Database connection established !
+[20:55:25] Number of vehicle models: 0
+[20:55:25] SQL >> Loaded 2 businesses.
+[20:55:25] SQL >> Loaded 12 dmv checkpoints.
+[20:56:00] [connection] 192.168.8.104:58028 requests connection cookie.
+[20:56:01] [connection] incoming connection: 192.168.8.104:58028 id: 0
+[20:56:01] [join] Answer4k has joined the server (0:192.168.8.104)
+[20:56:20] SQL >> No rows found in 'cars' table.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:00:09] 
+[22:00:09] Server Plugins
+[22:00:09] --------------
+[22:00:09]  Loading plugin: mysql
+[22:00:09]  >> plugin.mysql: R41-4 successfully loaded.
+[22:00:09]   Loaded.
+[22:00:09]  Loading plugin: sscanf
+[22:00:09] 
+
+[22:00:09]  ===============================
+
+[22:00:09]       sscanf plugin loaded.     
+
+[22:00:09]          Version:  2.8.1        
+
+[22:00:09]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:00:09]  ===============================
+
+[22:00:09]   Loaded.
+[22:00:09]  Loading plugin: streamer
+[22:00:09] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[22:00:09]   Loaded.
+[22:00:09]  Loading plugin: pawncmd
+[22:00:09] [Pawn.CMD] plugin v3.3.3 by urShadow loaded
+[22:00:09]   Loaded.
+[22:00:09]  Loaded 4 plugins.
+
+[22:00:09] 
+[22:00:09] Filterscripts
+[22:00:09] ---------------
+[22:00:09]   Loaded 0 filterscripts.
+
+[22:00:09]  
+[22:00:09]  
+[22:00:09]  
+[22:00:09]  ======================================= 
+[22:00:09]  |                                     | 
+[22:00:09]  |        YSI version 4.00.0001        | 
+[22:00:09]  |        By Alex "Y_Less" Cole        | 
+[22:00:09]  |                                     | 
+[22:00:09]  ======================================= 
+[22:00:09]  
+[22:00:09] SQL >> Database connection established !
+[22:00:09] Number of vehicle models: 0
+[22:00:09] SQL >> Loaded 2 businesses.
+[22:00:09] SQL >> Loaded 12 dmv checkpoints.
+[22:00:32] [connection] 192.168.8.104:52380 requests connection cookie.
+[22:00:33] [connection] incoming connection: 192.168.8.104:52380 id: 0
+[22:00:33] [join] Answer4k has joined the server (0:192.168.8.104)
+[22:01:07] SQL >> No rows found in 'cars' table.
+[22:04:34] [part] Answer4k has left the server (0:1)

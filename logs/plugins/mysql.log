@@ -446,3 +446,44 @@
 [17:10:27] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
 [17:11:20] [ERROR] cache_get_value_name_int: field 'businnes' not found (../includes/funcs.inc:54)
 [17:12:16] [ERROR] cache_get_value_name_int: field 'businnes' not found (../includes/funcs.inc:54)
+[18:38:56] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[18:38:56] [ERROR] cache_get_value_name: field 'ownerid' not found (../includes/systems/business.inc:53)
+[18:38:56] [ERROR] cache_get_value_name: field 'ownerid' not found (../includes/systems/business.inc:53)
+[18:39:11] [ERROR] cache_get_value_name_int: field 'businnes' not found (../includes/funcs.inc:54)
+[18:40:47] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[18:40:47] [ERROR] cache_get_value_name: field 'ownerid' not found (../includes/systems/business.inc:53)
+[18:40:47] [ERROR] cache_get_value_name: field 'ownerid' not found (../includes/systems/business.inc:53)
+[18:41:28] [ERROR] cache_get_value_name_int: field 'businnes' not found (../includes/funcs.inc:54)
+[19:22:38] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[19:22:38] [ERROR] cache_get_value_name: field 'ownerid' not found (../includes/systems/business.inc:53)
+[19:22:38] [ERROR] cache_get_value_name: field 'ownerid' not found (../includes/systems/business.inc:53)
+[19:22:49] [ERROR] cache_get_value_name_int: field 'businnes' not found (../includes/funcs.inc:54)
+[19:22:49] [ERROR] cache_get_value_name_int: invalid row index '5' (number of rows: '5') (../includes/systems/personalv.inc:292)
+[19:24:48] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[19:24:48] [ERROR] cache_get_value_name: field 'ownerid' not found (../includes/systems/business.inc:53)
+[19:24:48] [ERROR] cache_get_value_name: field 'ownerid' not found (../includes/systems/business.inc:53)
+[19:25:21] [ERROR] cache_get_value_name_int: field 'businnes' not found (../includes/funcs.inc:54)
+[19:25:21] [ERROR] cache_get_value_name_int: invalid row index '5' (number of rows: '5') (../includes/systems/personalv.inc:292)
+[19:28:05] [WARNING] mysql_connect: no password specified (C:\Users\vlogs\Desktop\SECRET\gamemodes\blank.pwn:29 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\YSI\..\YSI_Coding\..\YSI_Internal\..\YSI_Server\y_scriptinit.inc:237 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\Pawn.CMD.inc:128 -> C:\Users\vlogs\Desktop\SECRET\pawno\include\sscanf2.inc:173)
+[19:28:05] [ERROR] cache_get_value_name: field 'ownerid' not found (../includes/systems/business.inc:53)
+[19:28:05] [ERROR] cache_get_value_name: field 'ownerid' not found (../includes/systems/business.inc:53)
+[19:28:34] [ERROR] cache_get_value_name_int: field 'businnes' not found (../includes/funcs.inc:54)
+[19:28:34] [ERROR] cache_get_value_name_int: invalid row index '5' (number of rows: '5') (../includes/systems/personalv.inc:293)
+[18:34:32] [WARNING] mysql_connect: no password specified
+[18:34:33] [ERROR] cache_get_value_name: field 'ownerid' not found
+[18:34:33] [ERROR] cache_get_value_name: field 'ownerid' not found
+[18:35:51] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[18:35:51] [ERROR] cache_get_value_name_int: invalid row index '5' (number of rows: '5')
+[18:42:42] [WARNING] mysql_connect: no password specified
+[18:42:42] [ERROR] cache_get_value_name: field 'ownerid' not found
+[18:42:42] [ERROR] cache_get_value_name: field 'ownerid' not found
+[18:44:57] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[18:44:57] [ERROR] cache_get_value_name_int: invalid row index '5' (number of rows: '5')
+[20:55:25] [WARNING] mysql_connect: no password specified
+[20:55:25] [ERROR] cache_get_value_name: field 'ownerid' not found
+[20:55:25] [ERROR] cache_get_value_name: field 'ownerid' not found
+[20:56:20] [ERROR] cache_get_value_name_int: field 'businnes' not found
+[22:00:09] [WARNING] mysql_connect: no password specified
+[22:00:09] [ERROR] cache_get_value_name: field 'ownerid' not found
+[22:00:09] [ERROR] cache_get_value_name: field 'ownerid' not found
+[22:01:07] [ERROR] cache_get_value_name_int: field 'businnes' not found

@@ -81,6 +81,10 @@ function AccountLoad(playerid) {
 		TogglePlayerSpectating(playerid, 0);
         SpawnPlayer(playerid);
         Iter_Add(serverLogged, playerid);
+
+		String[0] = (EOS);
+		format(String, sizeof String, "SELECT * FROM `cars` WHERE `Owner` = '%s' AND `User` = '%d' LIMIT %d", GetName(playerid), PlayerInfo[playerid][pSQLID], MAX_SLOTS);
+		mysql_tquery(SQL, String, "loadCar", "");
     }
 	return 1;
 }

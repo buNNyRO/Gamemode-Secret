@@ -12,10 +12,7 @@ new MySQL: SQL,
 	Iterator:serverAdmins<MAX_PLAYERS>, Iterator:serverHelpers<MAX_PLAYERS>, Iterator:serverStaff<MAX_PLAYERS>, Iterator:serverReports<MAX_PLAYERS>, 
 	Iterator:serverNewbies<MAX_PLAYERS>, Iterator: serverExam<MAX_DMV_CP>, Iterator: serverLogged<MAX_PLAYERS>,
 //pText
-	PlayerText:Logo, PlayerText:Info,
-//Text
-
-	PlayerInfo[MAX_PLAYERS][ENUM_PLAYER_DATA];
+	PlayerText:Logo, PlayerText:Info;
 
 new vehicleName[212][] = {
 	{"Landstalker"}, {"Bravura"}, {"Buffalo"}, {"Linerunner"}, {"Perrenial"}, {"Sentinel"}, {"Dumper"}, {"Firetruck"},

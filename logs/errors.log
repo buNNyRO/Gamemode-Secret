@@ -1,2 +1,3 @@
-[17:11:20] [plugins/mysql] cache_get_value_name_int: field 'businnes' not found (../includes/funcs.inc:54)
-[17:12:16] [plugins/mysql] cache_get_value_name_int: field 'businnes' not found (../includes/funcs.inc:54)
+[22:00:09] [plugins/mysql] cache_get_value_name: field 'ownerid' not found
+[22:00:09] [plugins/mysql] cache_get_value_name: field 'ownerid' not found
+[22:01:07] [plugins/mysql] cache_get_value_name_int: field 'businnes' not found

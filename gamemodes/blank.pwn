@@ -1,5 +1,5 @@
 #define server_hostname 			"Outer Banks"
-#define server_version  			"v0.0.2"
+#define server_version  			"v0.0.3"
 #define server_version_name  		"blank"
 #define server_mapname 				"LV"
 #define server_weburl   			"secret.ro"
@@ -72,7 +72,7 @@ public OnPlayerConnect(playerid) {
 	playerTD(playerid);
 	TogglePlayerSpectating(playerid, 1);
 
-	SetSpawnInfo(playerid, 0, 223, 1675.7025,1447.7917,10.7866,269.5700, -1, -1, -1, -1, -1, -1);
+	SetSpawnInfo(playerid, 0, 60, 1675.7025,1447.7917,10.7866,269.5700, -1, -1, -1, -1, -1, -1);
 
 	mysql_tquery(SQL, query("SELECT * FROM `users` WHERE `name` = '%s'", GetName(playerid)), "CheckAccount", "d", playerid);
 	return 1;
@@ -97,7 +97,7 @@ public OnPlayerSpawn(playerid) {
 	SetPlayerPos(playerid, 1675.7025,1447.7917,10.7866);
 	SetPlayerFacingAngle(playerid, 269.5700);
 	SetCameraBehindPlayer(playerid);
-	SetPlayerSkin(playerid, PlayerInfo)
+	SetPlayerSkin(playerid, PlayerInfo[playerid][pSkin]);
 	return 1;
 }
 
@@ -199,3 +199,4 @@ public OnPlayerClickPlayer(playerid, clickedplayerid, source) {
 #include "../includes/commands" 	
 #include "../includes/systems/business" 
 #include "../includes/systems/gps" 	
+#include "../includes/systems/personalv" 	

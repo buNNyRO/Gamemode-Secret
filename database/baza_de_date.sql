@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Gazdă: 127.0.0.1
--- Timp de generare: iul. 23, 2020 la 12:05 PM
--- Versiune server: 10.4.11-MariaDB
--- Versiune PHP: 7.4.2
+-- Timp de generare: nov. 30, 2021 la 02:43 PM
+-- Versiune server: 10.4.17-MariaDB
+-- Versiune PHP: 8.0.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -19,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Bază de date: `suntnr1`
+-- Bază de date: `secret`
 --
 
 -- --------------------------------------------------------
@@ -41,6 +40,50 @@ CREATE TABLE `businesses` (
   `iZ` float NOT NULL,
   `interior` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Eliminarea datelor din tabel `businesses`
+--
+
+INSERT INTO `businesses` (`id`, `owner`, `model`, `price`, `eX`, `eY`, `eZ`, `iX`, `iY`, `iZ`, `interior`) VALUES
+(1, 'AdmBot', 1, 1000000, 1678.8, 1383.66, 10.741, 2306, -16, 27, 0),
+(2, 'AdmBot', 8, 1000000, 1685.34, 1371.95, 10.7279, 363.218, -74.9702, 1001.51, 10);
+
+-- --------------------------------------------------------
+
+--
+-- Structură tabel pentru tabel `cars`
+--
+
+CREATE TABLE `cars` (
+  `id` int(11) NOT NULL,
+  `model` int(11) NOT NULL,
+  `owner` varchar(36) NOT NULL DEFAULT 'AdmBot',
+  `user` int(11) NOT NULL DEFAULT 0,
+  `x` float NOT NULL,
+  `y` float NOT NULL,
+  `z` float NOT NULL,
+  `a` float NOT NULL,
+  `color1` int(11) NOT NULL DEFAULT 1,
+  `color2` int(11) NOT NULL DEFAULT 1,
+  `ins_price` int(11) NOT NULL DEFAULT 0,
+  `ins` int(11) NOT NULL DEFAULT 5,
+  `km` float NOT NULL DEFAULT 0,
+  `age` int(11) NOT NULL DEFAULT 0,
+  `gas` int(11) NOT NULL DEFAULT 100,
+  `plate` varchar(36) NOT NULL DEFAULT 'AdmBot'
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Eliminarea datelor din tabel `cars`
+--
+
+INSERT INTO `cars` (`id`, `model`, `owner`, `user`, `x`, `y`, `z`, `a`, `color1`, `color2`, `ins_price`, `ins`, `km`, `age`, `gas`, `plate`) VALUES
+(6, 411, 'mr.bunny', 1, 1813.31, -1820.82, 12.9982, 0.991107, 0, 0, 27737, 0, 15.5196, 2, 59, '{CC0000}NewCar'),
+(7, 541, 'mr.bunny', 1, 1826.62, -1817.92, 13.2017, 3.8072, 0, 0, 0, 5, 1.161, 2, 98, '{CC0000}NewCar'),
+(8, 411, 'mr.bunny', 1, 2304.71, 1490.88, 42.816, 269.595, 0, 0, 0, 5, 0, 2, 100, '{CC0000}NewCar'),
+(9, 560, 'mr.bunny', 1, 2301.99, 1437.19, 42.82, 269.595, 0, 0, 0, 5, 4.774, 2, 100, '{CC0000}NewCar'),
+(10, 411, 'mr.bunny', 1, 2323.16, 1412.37, 35.824, 265.835, 0, 0, 0, 5, 0, 2, 100, '{CC0000}NewCar');
 
 -- --------------------------------------------------------
 
@@ -83,18 +126,25 @@ CREATE TABLE `users` (
   `id` int(8) NOT NULL,
   `name` varchar(32) NOT NULL,
   `password` varchar(65) NOT NULL,
-  `remember_token` text NOT NULL DEFAULT '\'\'',
   `ip` varchar(18) NOT NULL,
   `mail` varchar(64) NOT NULL,
   `gender` int(2) NOT NULL DEFAULT 0,
   `admin` int(2) NOT NULL DEFAULT 0,
   `helper` int(2) NOT NULL DEFAULT 0,
   `activitystatus` int(2) NOT NULL DEFAULT 0,
-  `skin` int(4) NOT NULL DEFAULT 0,
+  `skin` int(4) NOT NULL DEFAULT 223,
   `licenses` varchar(48) NOT NULL DEFAULT '''0|0|0|0|0|0|0|0''',
   `money` int(32) NOT NULL DEFAULT 0,
   `bankmoney` int(32) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Eliminarea datelor din tabel `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `password`, `ip`, `mail`, `gender`, `admin`, `helper`, `activitystatus`, `skin`, `licenses`, `money`, `bankmoney`) VALUES
+(1, 'mr.bunny', '1EC08200ABC3C97A272CA6CDED36D47C7B42FF853F359C70DA61701EE263CA2C', '192.168.8.104', 'vlogsdaniel13@gmail.com', 0, 6, 0, 0, 60, '\'0|0|0|0|0|0|0|0\'', 0, 0),
+(2, 'Answer4k', '1EC08200ABC3C97A272CA6CDED36D47C7B42FF853F359C70DA61701EE263CA2C', '192.168.8.104', 'vlogsdaniel13@gmail.com', 0, 0, 0, 0, 223, '\'0|0|0|0|0|0|0|0\'', 0, 0);
 
 --
 -- Indexuri pentru tabele eliminate
@@ -104,6 +154,12 @@ CREATE TABLE `users` (
 -- Indexuri pentru tabele `businesses`
 --
 ALTER TABLE `businesses`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexuri pentru tabele `cars`
+--
+ALTER TABLE `cars`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -126,7 +182,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT pentru tabele `businesses`
 --
 ALTER TABLE `businesses`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT pentru tabele `cars`
+--
+ALTER TABLE `cars`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT pentru tabele `dmv_cp`
@@ -138,7 +200,7 @@ ALTER TABLE `dmv_cp`
 -- AUTO_INCREMENT pentru tabele `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

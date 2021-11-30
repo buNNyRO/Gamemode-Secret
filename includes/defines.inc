@@ -3,6 +3,8 @@
 
 #define MAX_REPORTS					15
 #define MAX_DMV_CP 				    30
+#define MAX_VEH_PERS 				10
+#define MAX_SLOTS 					50
 
 #define password_salt 				"jkbr238fj37"
 

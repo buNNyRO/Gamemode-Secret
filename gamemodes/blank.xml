@@ -196,6 +196,55 @@
 			<referrer name="YVA2_FoundPush"/>
 			<referrer name="Hooks_GetStubEntry"/>
 		</member>
+		<member name="T:ENUM_CARS_DATA" value="81">
+			<tagname value="ENUM_CARS_DATA"/>
+			<member name="C:cID" value="0">
+			</member>
+			<member name="C:cModel" value="1">
+			</member>
+			<member name="C:cOwner" value="2">
+				<size value="32"/>
+			</member>
+			<member name="C:cUser" value="34">
+			</member>
+			<member name="C:cUserID" value="35">
+			</member>
+			<member name="C:cVehID" value="36">
+			</member>
+			<member name="C:cTime" value="37">
+			</member>
+			<member name="C:cX" value="38">
+				<tagname value="Float"/>
+			</member>
+			<member name="C:cY" value="39">
+				<tagname value="Float"/>
+			</member>
+			<member name="C:cZ" value="40">
+				<tagname value="Float"/>
+			</member>
+			<member name="C:cA" value="41">
+				<tagname value="Float"/>
+			</member>
+			<member name="C:cColor1" value="42">
+			</member>
+			<member name="C:cColor2" value="43">
+			</member>
+			<member name="C:cInsPrice" value="44">
+			</member>
+			<member name="C:cIns" value="45">
+			</member>
+			<member name="C:cKM" value="46">
+				<tagname value="Float"/>
+			</member>
+			<member name="C:cAge" value="47">
+			</member>
+			<member name="C:cGas" value="48">
+				<tagname value="Float"/>
+			</member>
+			<member name="C:cPlate" value="49">
+				<size value="32"/>
+			</member>
+		</member>
 		<member name="T:ENUM_DMV_DATA" value="4">
 			<tagname value="ENUM_DMV_DATA"/>
 			<member name="C:dID" value="0">
@@ -210,7 +259,7 @@
 				<tagname value="Float"/>
 			</member>
 		</member>
-		<member name="T:ENUM_PLAYER_DATA" value="176">
+		<member name="T:ENUM_PLAYER_DATA" value="177">
 			<tagname value="ENUM_PLAYER_DATA"/>
 			<member name="C:pSQLID" value="0">
 			</member>
@@ -235,21 +284,23 @@
 			</member>
 			<member name="C:pBizz" value="167">
 			</member>
-			<member name="C:pDrivingLicense" value="168">
+			<member name="C:pSkin" value="168">
 			</member>
-			<member name="C:pGunLicense" value="169">
+			<member name="C:pDrivingLicense" value="169">
 			</member>
-			<member name="C:pFlyLicense" value="170">
+			<member name="C:pGunLicense" value="170">
 			</member>
-			<member name="C:pSailingLicense" value="171">
+			<member name="C:pFlyLicense" value="171">
 			</member>
-			<member name="C:pDrivingLicenseSuspend" value="172">
+			<member name="C:pSailingLicense" value="172">
 			</member>
-			<member name="C:pGunLicenseSuspend" value="173">
+			<member name="C:pDrivingLicenseSuspend" value="173">
 			</member>
-			<member name="C:pFlyLicenseSuspend" value="174">
+			<member name="C:pGunLicenseSuspend" value="174">
 			</member>
-			<member name="C:pSailingLicenseSuspend" value="175">
+			<member name="C:pFlyLicenseSuspend" value="175">
+			</member>
+			<member name="C:pSailingLicenseSuspend" value="176">
 			</member>
 		</member>
 		<member name="T:E_HOOK_NAME_REPLACEMENT_DATA" value="34">
@@ -462,13 +513,18 @@
 		<member name="C:AMX_HDR_OFFSET_TAGS" value="48">
 			<referrer name="GetAmxHeaderNow"/>
 		</member>
+		<member name="C:DIALOG_VEHICLES" value="4">
+			<referrer name="pc_cmd_vehicles"/>
+		</member>
 		<member name="C:EOS" value="0">
 			<referrer name="OnDialogResponse"/>
 			<referrer name="ecp_OnPlayerEnterCheckpoint"/>
 			<referrer name="formats"/>
 			<referrer name="query"/>
+			<referrer name="AccountLoad"/>
 			<referrer name="pc_cmd_addexamcp"/>
 			<referrer name="pc_cmd_createbiz"/>
+			<referrer name="pc_cmd_vehicles"/>
 		</member>
 		<member name="C:NUM_OPCODES" value="138">
 			<referrer name="IsOpcodeValid"/>
@@ -544,7 +600,7 @@
 			<referrer name="Iter_Func@Range"/>
 			<referrer name="Iter_Func@Random"/>
 		</member>
-		<member name="C:debug" value="2">
+		<member name="C:debug" value="0">
 			<referrer name="RelocateOpcodeNow"/>
 		</member>
 		<member name="C:false" value="0">
@@ -631,6 +687,7 @@
 			<referrer name="serverSys"/>
 			<referrer name="loadDynamicDMV"/>
 			<referrer name="IsValidEmail"/>
+			<referrer name="pc_cmd_vehicles"/>
 		</member>
 
 		<!-- variables -->
@@ -770,10 +827,17 @@
 		</member>
 		<member name="F:CELLMIN_ON_MATCHES">
 		</member>
+		<member name="F:CarInfo">
+			<referrer name="pc_cmd_vehicles"/>
+			<referrer name="loadCar"/>
+		</member>
 		<member name="F:F@o">
 		</member>
 		<member name="F:FALSE">
 			<tagname value="bool"/>
+		</member>
+		<member name="F:HaveVeh">
+			<referrer name="pc_cmd_vehicles"/>
 		</member>
 		<member name="F:I@">
 			<referrer name="Iter_YieldReturn"/>
@@ -866,6 +930,9 @@
 		<member name="F:Iter_Single@serverStaff">
 			<referrer name="_y_utils_OnPlayerDisconnect"/>
 			<referrer name="AccountLoad"/>
+		</member>
+		<member name="F:Iter_Single@vehPers">
+			<referrer name="loadCar"/>
 		</member>
 		<member name="F:Iterator@Actor">
 			<referrer name="@yH_OnScriptInit@002"/>
@@ -973,6 +1040,10 @@
 			<referrer name="AccountLoad"/>
 			<referrer name="sendStaff"/>
 		</member>
+		<member name="F:Iterator@vehPers">
+			<referrer name="pc_cmd_vehicles"/>
+			<referrer name="loadCar"/>
+		</member>
 		<member name="F:J@">
 			<referrer name="Iter_ActorDo_"/>
 			<referrer name="Iter_CreateActor"/>
@@ -1011,6 +1082,7 @@
 			<referrer name="dialog_DIALOG_GENDER"/>
 			<referrer name="dialog_DIALOG_PASSWORD"/>
 			<referrer name="_y_utils_OnPlayerDisconnect"/>
+			<referrer name="OnPlayerSpawn"/>
 			<referrer name="OnPlayerExitVehicle"/>
 			<referrer name="OnPlayerStateChange"/>
 			<referrer name="ecp_OnPlayerEnterCheckpoint"/>
@@ -1052,6 +1124,7 @@
 			<referrer name="_y_utils_OnPlayerConnect"/>
 			<referrer name="ecp_OnPlayerEnterCheckpoint"/>
 			<referrer name="serverSys"/>
+			<referrer name="AccountLoad"/>
 			<referrer name="pc_cmd_addexamcp"/>
 			<referrer name="pc_cmd_movebiz"/>
 			<referrer name="pc_cmd_createbiz"/>
@@ -1071,6 +1144,8 @@
 		</member>
 		<member name="F:String">
 			<referrer name="formats"/>
+			<referrer name="AccountLoad"/>
+			<referrer name="pc_cmd_vehicles"/>
 		</member>
 		<member name="F:TRUE">
 			<tagname value="bool"/>
@@ -1511,6 +1586,7 @@
 		</member>
 		<member name="F:vehicleName">
 			<referrer name="changeEngineStatus"/>
+			<referrer name="pc_cmd_vehicles"/>
 		</member>
 
 		<!-- functions -->
@@ -2560,6 +2636,7 @@
 			<attribute name="public"/>
 			<stacksize value="61"/>
 			<dependency name="Dialog_Open"/>
+			<dependency name="EOS"/>
 			<dependency name="GetName"/>
 			<dependency name="Iter_Add_InternalC"/>
 			<dependency name="Iter_Single@serverAdmins"/>
@@ -2574,13 +2651,16 @@
 			<dependency name="PlayerInfo"/>
 			<dependency name="PlayerInfo"/>
 			<dependency name="PlayerTextDrawShow"/>
+			<dependency name="SQL"/>
 			<dependency name="SpawnPlayer"/>
 			<dependency name="StopAudioStreamForPlayer"/>
+			<dependency name="String"/>
 			<dependency name="TogglePlayerSpectating"/>
 			<dependency name="cache_get_row_count"/>
 			<dependency name="cache_get_value_name"/>
 			<dependency name="cache_get_value_name_int"/>
 			<dependency name="format"/>
+			<dependency name="mysql_tquery"/>
 			<dependency name="pAdmin"/>
 			<dependency name="pBizz"/>
 			<dependency name="pDrivingLicense"/>
@@ -2595,6 +2675,7 @@
 			<dependency name="pPassword"/>
 			<dependency name="pSQLID"/>
 			<dependency name="pSailingLicenseSuspend"/>
+			<dependency name="pSkin"/>
 			<dependency name="pUsername"/>
 			<dependency name="sscanf"/>
 			<dependency name="va_PlayerTextDrawSetString"/>
@@ -6178,12 +6259,12 @@
 		</member>
 		<member name="M:Debug_Disable" syntax="Debug_Disable()">
 			<stacksize value="1"/>
-			<remarks>  Turn off level 0 prints.  </remarks>  <transition target=""/>
+			<remarks>  Turn off level 0 prints.  </remarks>  <transition target="№ч/ач/i3"/>
 
 		</member>
 		<member name="M:Debug_Enable" syntax="Debug_Enable()">
 			<stacksize value="1"/>
-			<remarks>  Turn on level 0 prints.  </remarks>  <transition target=""/>
+			<remarks>  Turn on level 0 prints.  </remarks>  <transition target="№ч/ач/i3"/>
 
 		</member>
 		<member name="M:Debug_Level" syntax="Debug_Level(level)">
@@ -7260,6 +7341,7 @@
 			<referrer name="pc_cmd_closereport"/>
 			<referrer name="pc_cmd_addexamcp"/>
 			<referrer name="pc_cmd_buybiz"/>
+			<referrer name="pc_cmd_vehicles"/>
 			<dependency name="GetName"/>
 			<dependency name="GetPlayerName"/>
 			<param name="playerid">
@@ -8929,6 +9011,7 @@
 			<referrer name="pc_cmd_addexamcp"/>
 			<referrer name="loadDynamicBIZZ"/>
 			<referrer name="pc_cmd_createbiz"/>
+			<referrer name="loadCar"/>
 			<dependency name="cellmin"/>
 			<param name="count">
 				<paraminfo> &amp; </paraminfo>
@@ -10152,7 +10235,7 @@
 			<dependency name="Hooks_DoAllHooks"/>
 			<dependency name="Hooks_InvalidateName"/>
 			<dependency name="Hooks_SortReplacements"/>
-			<remarks>  Call the main hook run code, then advance the ALS chain.  </remarks>  <transition keep="true" target="_ALS : _ALS_go"/>  <transition target=""/>
+			<remarks>  Call the main hook run code, then advance the ALS chain.  </remarks>  <transition keep="true" target="_ALS : _ALS_go"/>  <transition target="?ч3"/>
 
 		</member>
 		<member name="M:Malloc_Reconcile" syntax="Malloc_Reconcile(addr)">
@@ -10993,9 +11076,12 @@
 		<member name="M:OnPlayerSpawn" syntax="OnPlayerSpawn(playerid)">
 			<attribute name="public"/>
 			<stacksize value="6"/>
+			<dependency name="PlayerInfo"/>
 			<dependency name="SetCameraBehindPlayer"/>
 			<dependency name="SetPlayerFacingAngle"/>
 			<dependency name="SetPlayerPos"/>
+			<dependency name="SetPlayerSkin"/>
+			<dependency name="pSkin"/>
 			<param name="playerid">
 			</param>
 		</member>
@@ -11242,6 +11328,7 @@
 			<referrer name="pc_alias_newbiereply"/>
 			<referrer name="pc_alias_adminchat"/>
 			<referrer name="pc_alias_closereport"/>
+			<referrer name="pc_alias_vehicles"/>
 			<param name="cmd">
 				<paraminfo> [] </paraminfo>
 			</param>
@@ -12095,6 +12182,7 @@
 			<referrer name="pc_cmd_movebiz"/>
 			<referrer name="pc_cmd_createbiz"/>
 			<referrer name="pc_cmd_buybiz"/>
+			<referrer name="pc_cmd_vehicles"/>
 			<param name="playerid">
 			</param>
 			<param name="color">
@@ -12353,6 +12441,14 @@
 				<paraminfo>Float </paraminfo>
 			</param>
 		</member>
+		<member name="M:SetPlayerSkin" syntax="SetPlayerSkin(playerid, skinid)">
+			<attribute name="native"/>
+			<referrer name="OnPlayerSpawn"/>
+			<param name="playerid">
+			</param>
+			<param name="skinid">
+			</param>
+		</member>
 		<member name="M:SetPlayerVirtualWorld" syntax="SetPlayerVirtualWorld(playerid, worldid)">
 			<attribute name="native"/>
 			<referrer name="examPlayerFailed"/>
@@ -12471,6 +12567,7 @@
 			<attribute name="native"/>
 			<referrer name="Dialog_Open"/>
 			<referrer name="Dialog_Hide"/>
+			<referrer name="pc_cmd_vehicles"/>
 			<param name="playerid">
 			</param>
 			<param name="dialogid">
@@ -13557,6 +13654,7 @@
 			<attribute name="native"/>
 			<referrer name="AccountLoad"/>
 			<referrer name="loadDynamicBIZZ"/>
+			<referrer name="loadCar"/>
 			<param name="row_idx">
 			</param>
 			<param name="column_name">
@@ -13584,6 +13682,7 @@
 			<attribute name="native"/>
 			<referrer name="loadDynamicDMV"/>
 			<referrer name="loadDynamicBIZZ"/>
+			<referrer name="loadCar"/>
 			<param name="row_idx">
 			</param>
 			<param name="column_name">
@@ -13599,6 +13698,7 @@
 			<referrer name="loadDynamicDMV"/>
 			<referrer name="AccountLoad"/>
 			<referrer name="loadDynamicBIZZ"/>
+			<referrer name="loadCar"/>
 			<param name="row_idx">
 			</param>
 			<param name="column_name">
@@ -13620,6 +13720,7 @@
 			<stacksize value="4"/>
 			<referrer name="loadDynamicDMV"/>
 			<referrer name="loadDynamicBIZZ"/>
+			<referrer name="loadCar"/>
 			<dependency name="cache_get_row_count"/>
 		</member>
 		<member name="M:calloc" syntax="calloc(size)">
@@ -14158,6 +14259,7 @@
 			<referrer name="pc_cmd_report"/>
 			<referrer name="pc_cmd_createbiz"/>
 			<referrer name="pc_cmd_buybiz"/>
+			<referrer name="pc_cmd_vehicles"/>
 			<param name="output">
 				<paraminfo> [] </paraminfo>
 			</param>
@@ -14334,6 +14436,42 @@
 				The iterator function's parameters.
 			</param>
 			  <remarks>  Used to declare a special iterator function.  Examples:  <code>  iterfunc stock OnlyZero(cur)                                                    <br />  {                                                                               <br /><indent />  if (cur == -1)                                                              <br /><indent /><indent />  return 0;                                                               <br /><indent />  return -1;                                                                  <br />  }                                                                               <br />  </code>  <code>  iterfunc stock AlsoOnlyZero[cellmin](cur)                                       <br />  {                                                                               <br /><indent />  if (cur == cellmin)                                                         <br /><indent /><indent />  return 0;                                                               <br /><indent />  return cellmin;                                                             <br />  }                                                                               <br />  </code>  <code>  iterfunc stock OneToTen[cellmin](cur)                                           <br />  {                                                                               <br /><indent />  if (cur == cellmin)                                                         <br /><indent /><indent />  return 1;                                                               <br /><indent />  if (cur == 10)                                                              <br /><indent /><indent />  return cellmin;                                                         <br /><indent />  return cur + 1;                                                             <br />  }                                                                               <br />  </code>  <code>  iterfunc stock OneToN(cur, n)                                                   <br />  {                                                                               <br /><indent />  if (n &lt; 1)                                                               <br /><indent /><indent />  return -1;                                                              <br /><indent />  if (cur == -1)                                                              <br /><indent /><indent />  return 1;                                                               <br /><indent />  if (cur == n)                                                               <br /><indent /><indent />  return -1;                                                              <br /><indent />  return cur + 1;                                                             <br />  }                                                                               <br />  </code>  </remarks> 
+		</member>
+		<member name="M:loadCar" syntax="loadCar(playerid)">
+			<attribute name="public"/>
+			<stacksize value="8"/>
+			<dependency name="CarInfo"/>
+			<dependency name="CarInfo"/>
+			<dependency name="Iter_Add_InternalC"/>
+			<dependency name="Iter_Single@vehPers"/>
+			<dependency name="Iterator@vehPers"/>
+			<dependency name="cA"/>
+			<dependency name="cAge"/>
+			<dependency name="cColor1"/>
+			<dependency name="cColor2"/>
+			<dependency name="cGas"/>
+			<dependency name="cID"/>
+			<dependency name="cIns"/>
+			<dependency name="cInsPrice"/>
+			<dependency name="cKM"/>
+			<dependency name="cModel"/>
+			<dependency name="cOwner"/>
+			<dependency name="cPlate"/>
+			<dependency name="cTime"/>
+			<dependency name="cUser"/>
+			<dependency name="cUserID"/>
+			<dependency name="cVehID"/>
+			<dependency name="cX"/>
+			<dependency name="cY"/>
+			<dependency name="cZ"/>
+			<dependency name="cache_get_value_name"/>
+			<dependency name="cache_get_value_name_float"/>
+			<dependency name="cache_get_value_name_int"/>
+			<dependency name="cache_num_rows"/>
+			<dependency name="print"/>
+			<dependency name="printf"/>
+			<param name="playerid">
+			</param>
 		</member>
 		<member name="M:loadDynamicBIZZ" syntax="loadDynamicBIZZ()">
 			<attribute name="public"/>
@@ -14625,6 +14763,7 @@
 			<referrer name="_y_utils_OnPlayerConnect"/>
 			<referrer name="ecp_OnPlayerEnterCheckpoint"/>
 			<referrer name="serverSys"/>
+			<referrer name="AccountLoad"/>
 			<referrer name="pc_cmd_addexamcp"/>
 			<referrer name="pc_cmd_movebiz"/>
 			<referrer name="pc_cmd_createbiz"/>
@@ -14703,6 +14842,11 @@
 		<member name="M:pc_alias_newbiereply" syntax="pc_alias_newbiereply()">
 			<attribute name="public"/>
 			<stacksize value="4"/>
+			<dependency name="PC_RegAlias"/>
+		</member>
+		<member name="M:pc_alias_vehicles" syntax="pc_alias_vehicles()">
+			<attribute name="public"/>
+			<stacksize value="6"/>
 			<dependency name="PC_RegAlias"/>
 		</member>
 		<member name="M:pc_cmd_addexamcp" syntax="pc_cmd_addexamcp(playerid, params[])">
@@ -15128,6 +15272,36 @@
 				<paraminfo> [] </paraminfo>
 			</param>
 		</member>
+		<member name="M:pc_cmd_vehicles" syntax="pc_cmd_vehicles(playerid, params[])">
+			<attribute name="public"/>
+			<stacksize value="82"/>
+			<dependency name="CarInfo"/>
+			<dependency name="CarInfo"/>
+			<dependency name="DIALOG_VEHICLES"/>
+			<dependency name="EOS"/>
+			<dependency name="GetName"/>
+			<dependency name="HaveVeh"/>
+			<dependency name="HaveVeh"/>
+			<dependency name="Iterator@vehPers"/>
+			<dependency name="SendClientMessage"/>
+			<dependency name="ShowPlayerDialog"/>
+			<dependency name="String"/>
+			<dependency name="cModel"/>
+			<dependency name="cOwner"/>
+			<dependency name="cTime"/>
+			<dependency name="cVehID"/>
+			<dependency name="format"/>
+			<dependency name="printf"/>
+			<dependency name="strfind"/>
+			<dependency name="true"/>
+			<dependency name="vehicleName"/>
+			<dependency name="vehicleName"/>
+			<param name="playerid">
+			</param>
+			<param name="params">
+				<paraminfo> [] </paraminfo>
+			</param>
+		</member>
 		<member name="M:pc_cmd_vspawn" syntax="pc_cmd_vspawn(playerid, params[])">
 			<attribute name="public"/>
 			<stacksize value="17"/>
@@ -15175,6 +15349,7 @@
 			<referrer name="ScriptInit_OnGameModeInit"/>
 			<referrer name="loadDynamicDMV"/>
 			<referrer name="loadDynamicBIZZ"/>
+			<referrer name="loadCar"/>
 			<param name="string">
 				<paraminfo> [] </paraminfo>
 			</param>
@@ -15192,6 +15367,8 @@
 			<referrer name="PrintStackTrace"/>
 			<referrer name="loadDynamicDMV"/>
 			<referrer name="loadDynamicBIZZ"/>
+			<referrer name="pc_cmd_vehicles"/>
+			<referrer name="loadCar"/>
 			<param name="format">
 				<paraminfo> [] </paraminfo>
 			</param>
@@ -15518,6 +15695,7 @@
 			<referrer name="Hooks_MakeLongName"/>
 			<referrer name="Hooks_MakeShortName"/>
 			<referrer name="Hooks_IsolateName"/>
+			<referrer name="pc_cmd_vehicles"/>
 			<param name="string">
 				<paraminfo> [] </paraminfo>
 			</param>
